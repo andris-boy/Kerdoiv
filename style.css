@@ -1,0 +1,119 @@
+body{
+    white-space: pre;
+}
+
+
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center; /* Center align the text */
+}
+
+p {
+    text-align: center;
+    max-width: 100%;
+}
+
+.fade-in-text {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#answer-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+#question-text {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    justify-content: center;
+}
+
+#control-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff; /* White center */
+    border: 5px solid #4CAF50; /* Green outline */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Text color */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.5s; /* Add a transition for smooth color change */
+  }
+  
+  #answer-button--2 {
+    border-color: #ff0000; /* Red outline */
+    background-color: #ffffff; /* White center */
+    color: #000; /* Text color */
+  }
+  
+  #answer-button--1 {
+    width: 40px;
+    height: 40px;
+    border-color: #ff0000; /* Red outline */
+    background-color: #ffffff; /* White center */
+    color: #000; /* Text color */
+  }
+  
+  #answer-button-0 {
+    width: 30px;
+    height: 30px;
+    border-color: #808080; /* Green outline */
+    background-color: #ffffff; /* White center */
+    color: #000; /* Text color */
+  }
+  
+  #answer-button-1 {
+    width: 40px;
+    height: 40px;
+    border-color: #4CAF50; /* Green outline */
+    background-color: #ffffff; /* White center */
+    color: #000; /* Text color */
+  }
+  
+  #answer-button-2 {
+    border-color: #4CAF50; /* Green outline */
+    background-color: #ffffff; /* White center */
+    color: #000; /* Text color */
+  }
+  
+  /* Add hover styles for the specified buttons */
+  #answer-button--2:hover {
+    background-color: #ff0000; /* Red outline color on hover */
+  }
+  
+  #answer-button--1:hover {
+    background-color: #ff0000; /* Red outline color on hover */
+  }
+  
+  #answer-button-0:hover {
+    background-color: #808080; /* Green outline color on hover */
+  }
+  
+  #answer-button-1:hover {
+    background-color: #4CAF50; /* Green outline color on hover */
+  }
+  
+  #answer-button-2:hover {
+    background-color: #4CAF50; /* Green outline color on hover */
+  }
