@@ -15,7 +15,7 @@ p {
 }
 
 .fade-in-text {
-  animation: fadeIn 3s;
+  animation: fadeIn 6s;
 }
 
 @keyframes fadeIn {
