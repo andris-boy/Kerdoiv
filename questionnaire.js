@@ -118,6 +118,7 @@ window.onload = function () {
       if (questionNumber < 2) {
         questionsPool.push(...questions_1) 
       } 
+
       if (score < 0 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2b)
       }
@@ -127,6 +128,7 @@ window.onload = function () {
       if (score > -1 && score < 1 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2k)
       }
+
       if (score < 0 && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3b)
       }
@@ -136,33 +138,38 @@ window.onload = function () {
       if (score > 0  && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3j)
       }
-      if (-40 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
+
+      if (-44 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_be)
       }
-      if (-40 <= score && score <= -14 && 3 < questionNumber && questionNumber < 15) {
+      if (-44 <= score && score <= -14 && 7 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_bk)
       }
+
       if (- 6 <= score && score < 6 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_ke)
       }
-      if (-5 <= score && score < 5 && 3 < questionNumber&& questionNumber < 15) {
+      if (-3 <= score && score < 3 && 3 < questionNumber&& questionNumber < 15) {
         questionsPool.push(...questions_kk)
       }
-      if (4 <= score && score < 40 && 3 < questionNumber && questionNumber < 15) {
+
+      if (4 <= score && score < 44 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_je)
       }
-      if (14 <= score && score < 40 && 22 > questionNumber && questionNumber >= 15) {
+      if (14 <= score && score < 44 &&  7 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_jk)
       }
-      if (-40 <= score && score < -14 && 22 > questionNumber  && questionNumber >= 15) {
+
+      if (-44 <= score && score < -14 && 22 > questionNumber  && questionNumber >= 15) {
         questionsPool.push(...questions_bv)
       }
-      if (score >=-10  && score <= 10 && questionNumber > 15 && 22 > questionNumber ) {
+      if (score >=-10  && score <= 10 && 15 < questionNumber &&  questionNumber < 22) {
         questionsPool.push(...questions_kv)
       }
-      if (30 <= score && score < 40 && 22 > questionNumber  && questionNumber > 15) {
+      if (30 <= score && score < 44 && 22 > questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_jv)
       }
+
       if (score < -10 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
       }
