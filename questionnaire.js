@@ -113,7 +113,7 @@ window.onload = function () {
       if (score < 0 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2b)
       }
-      if (score <= 0 && 3 > questionNumber && questionNumber > 1) {
+      if (0 >= score && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2k)
       }
       if (score > 0  && 3 > questionNumber && questionNumber > 1) {
