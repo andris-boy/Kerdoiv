@@ -73,7 +73,7 @@ window.onload = function () {
       'Minden vélemény ugyanannyira értékes. ',
       'Mindent meg lehet bocsátani. ',
     ]
-    const questions_g = [
+    const questions_bv = [
       'Hagyom magamat csapdába csalogatni. ',
       'A kíváncsiságom erősebb, mint az ösztöneim. ',
       'A tagadást felcserélem az értékválasztással.'
@@ -84,7 +84,7 @@ window.onload = function () {
       'El tudom engedni az egomat.',
       'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
     ]  
-    const questions_h = [
+    const questions_jv = [
       'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
       'Ha az igazság nehezen kifürkészhető, akkor elég a barátokra hagyatkozni. ',
       'A tisztelet fontosabb, mint hogy kinek van igaza.',
@@ -147,13 +147,13 @@ window.onload = function () {
         questionsPool.push(...questions_f)
       }
       if (-40 <= score && score < -30 && 22 > questionNumber  && questionNumber > 15) {
-        questionsPool.push(...questions_g)
+        questionsPool.push(...questions_bv)
       }
       if (score <= 0 && questionNumber > 15 && 22 > questionNumber ) {
         questionsPool.push(...questions_kv)
       }
       if (30 <= score && score < 40 && 22 > questionNumber  && questionNumber > 15) {
-        questionsPool.push(...questions_h)
+        questionsPool.push(...questions_jv)
       }
       if (score < -20 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
@@ -194,9 +194,9 @@ window.onload = function () {
         questions_d,
         questions_e,
         questions_f,
-        questions_g,
-        questions_h,
+        questions_bv,
         questions_kv,
+        questions_jv,
         questions_22b,
         questions_22k,
         questions_22j
