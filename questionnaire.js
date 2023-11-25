@@ -152,9 +152,9 @@ window.onload = function () {
         questionsPool.push(...questions_je)
       }
       if (14 <= score && score < 40 && 22 > questionNumber && questionNumber >= 15) {
-        questionsPool.push(...questions_jv)
+        questionsPool.push(...questions_jk)
       }
-      if (-40 <= score && score < -30 && 22 > questionNumber  && questionNumber >= 15) {
+      if (-40 <= score && score < -14 && 22 > questionNumber  && questionNumber >= 15) {
         questionsPool.push(...questions_bv)
       }
       if (score >=-10  && score <= 10 && questionNumber > 15 && 22 > questionNumber ) {
