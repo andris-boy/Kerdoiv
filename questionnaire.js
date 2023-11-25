@@ -153,7 +153,7 @@ window.onload = function () {
       if (-24 <= score && score < 24 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_c)
       }
-      if (-10 <= score && score < 10 && 3 < questionNumber) {
+      if (-10 <= score && score < 10 && 3 < questionNumber&& questionNumber < 22) {
         questionsPool.push(...questions_d)
       }
       if (0 <= score && score < 40 && 3 < questionNumber && questionNumber < 15) {
