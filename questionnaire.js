@@ -103,15 +103,15 @@ window.onload = function () {
 
 
     const questions_22b = [
-      'Kívülálló vagyok.',
+      'Kívülálló vagyok.'
     ]  
 
     const questions_22k = [
-      'Az igazság üres. Nincs és soha nem is volt valódi személyiségem.',
+      'Az igazság üres. Nincs és soha nem is volt valódi személyiségem.'
     ]  
 
      const questions_22j = [
-      'Mindenki egyedül hal meg.',
+      'Mindenki egyedül hal meg.'
     ] 
   
     function selectOneFrom (array) {
