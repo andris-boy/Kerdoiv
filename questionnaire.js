@@ -99,7 +99,7 @@ window.onload = function () {
 
     ]
     const questions_22b = [
-      'Kívülálló vagyok.'
+      'Eltakarom magam elől a világot.'
     ]  
     const questions_22k = [
       'Nincs és soha nem is volt valódi személyiségem. Űr vagyok, ami a világra nyílik.'
