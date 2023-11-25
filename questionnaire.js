@@ -86,12 +86,33 @@ window.onload = function () {
       'A tagadást felcserélem az értékválasztással.'
     ]
   
+    const questions_kv = [
+      'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
+      'Nem bánom, hogy nem vagyok különleges.',
+      'El tudom engedni az egomat.',
+      'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire amire az állítás eredetileg vonatkozik.',
+    ]  
+
     const questions_h = [
       'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
       'Ha az igazság nehezen kifürkészhető, akkor elég a barátokra hagyatkozni. ',
       'A tisztelet fontosabb, mint hogy kinek van igaza.',
       'Együtt könnyebb.'
     ]
+
+
+
+    const questions_22b = [
+      'Kívülálló vagyok.',
+    ]  
+
+    const questions_22k = [
+      'Az igazság üres.',
+    ]  
+
+     const questions_22j = [
+      'Mindenki egyedül hal meg.',
+    ] 
   
     function selectOneFrom (array) {
       const selected = array[Math.floor(Math.random() * array.length)]
@@ -139,12 +160,26 @@ window.onload = function () {
       if (14 <= score && score < 40 && 3 < questionNumber) {
         questionsPool.push(...questions_f)
       }
-      if (-40 <= score && score < -30 && 3 < questionNumber  && questionNumber > 15) {
+      if (-40 <= score && score < -30 && 22 > questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_g)
       }
-      if (30 <= score && score < 40 && 3 < questionNumber  && questionNumber > 15) {
+      if (score <= 0 && questionNumber > 15 && 22 > questionNumber ) {
+        questionsPool.push(...questions_kv)
+      }
+      if (30 <= score && score < 40 && 22 > questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_h)
       }
+      if (score < -38 && questionNumber > 21) {
+        questionsPool.push(...questions_22b)
+      }
+      if (0 <= score && questionNumber > 21) {
+        questionsPool.push(...questions_22k)
+      }
+      if (score > 38 && questionNumber > 21) {
+        questionsPool.push(...questions_22j)
+      }
+
+
   
       const selected = selectOneFrom(questionsPool)
       return selected
@@ -174,7 +209,11 @@ window.onload = function () {
         questions_e,
         questions_f,
         questions_g,
-        questions_h
+        questions_h,
+        questions_kv,
+        questions_22b,
+        questions_22k,
+        questions_22j
       ]) {
         const index = questionsArray.indexOf(toDelete)
         if (index !== -1) {
