@@ -107,7 +107,7 @@ window.onload = function () {
     ]  
 
     const questions_22k = [
-      'Az igazság üres.',
+      'Az igazság üres. Nincs és soha nem is volt valódi személyiségem.',
     ]  
 
      const questions_22j = [
@@ -169,13 +169,13 @@ window.onload = function () {
       if (30 <= score && score < 40 && 22 > questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_h)
       }
-      if (score < -30 && questionNumber > 21) {
+      if (score < -20 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
       }
-      if (-20 <= score && questionNumber > 21) {
+      if (-20 <= score && score <= 20 && questionNumber > 21) {
         questionsPool.push(...questions_22k)
       }
-      if (score > 30 && questionNumber > 21) {
+      if (score > 20 && questionNumber > 21) {
         questionsPool.push(...questions_22j)
       }
 
