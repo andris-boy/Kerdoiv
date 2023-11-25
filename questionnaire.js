@@ -29,7 +29,6 @@ window.onload = function () {
       'Hajlamos vagyok cserélgetni az elveimet. ',
       'Nincsenek valódi céljaim.',
       'Nem hiszek az álmaimban. ',
-      'Jellemző, hogy elmenekülök a problémáim elől. ',
       'A félelmeim határoznak meg. ',
       'Fantomok között élek',
       'Nem vagyok méltó a bennem lévő potenciálra.'
@@ -38,8 +37,10 @@ window.onload = function () {
       'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
       'A felelősség legalább olyan fontos, mint az őszinteség.',
       'Nincs olyan pillanat, mikor a hazugság elfogadható',
+      'Elmenekülök a problémáim elől. ',
       'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
-      'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek'
+      'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek',
+      'Nem én vagyok a legfontosabb a asaját életemben.'
     ]
     const questions_ke = [
       'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
@@ -53,6 +54,7 @@ window.onload = function () {
       'Ha megtagadom a válaszadást, akkor is válaszolok. ',
       'Átlagos vagyok.',
       'Középszerű vagyok.',
+      'Nincs új a nap alatt',
       'Unalmas vagyok.',
       'Nem vagyok jobb vagy különb a többieknél',
       'Érdektelen vagyok',
@@ -83,6 +85,7 @@ window.onload = function () {
       'A tiszta kíváncsiság szörnyeteggé tehet.',
       'A tagadást felcserélem az értékválasztással.',
       'Nem akarok tudni bizonyos dolgokról',
+      'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
       'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
       'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet'
     ]
@@ -102,7 +105,8 @@ window.onload = function () {
       'Az életem értelmét megtalálhatom a többiekben.',
       'A szerelem lényege, hogy kiegészítjük egymást.',
       'Ha másokat kéne vezetnem, az torzítaná a személyiségemet',
-      'Nem tudnám eldönteni, hogy két ember közül melyikük élete értékesebb.'
+      'Nem tudnám eldönteni, hogy két ember közül melyikük élete értékesebb.',
+      'Azzá válok, aminek mások látnak.'
 
     ]
     const questions_22b = [
