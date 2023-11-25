@@ -21,8 +21,7 @@ window.onload = function () {
     ]  
      const questions_3j = [
       'A felelősség ugyanolyan fontos, mint az őszinteség.',
-    ]  
-
+    ]
     const questions_a = [
       'Befolyásolható vagyok.',
       'Könnyű megvezetni.',
@@ -33,14 +32,12 @@ window.onload = function () {
       'Jellemző, hogy elmenekülök a problémáim elől. ',
       'A félelmeim határoznak meg. '
     ]
-  
     const questions_b = [
       'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
       'Ez hamis: A felelősség nem olyan fontos, mint az őszinteség.',
       'Nincs olyan pillanat, mikor a hazugság elfogadható',
       'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek'
     ]
-  
     const questions_c = [
       'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
       'Hajlamos vagyok úszni az árral.',
@@ -51,14 +48,12 @@ window.onload = function () {
       'Mindig valakinek, vagy valaminek a szolgája vagyok. ',
       'Nem fontos tudni mi a munka célja, ha egyértelmű, hogy mit kell csinálni.',
     ]
-  
     const questions_d = [
       'Ha megtagadom a válaszadást, akkor is válaszolok. ',
       'Átlagos vagyok.',
       'Középszerű vagyok.',
       'Unalmas vagyok.'
     ]
-  
     const questions_e = [
       'Szeretek segíteni másoknak. ',
       'Szívesen dolgozom csapatban ',
@@ -69,7 +64,6 @@ window.onload = function () {
       'Ha többen beszélgetünk, próbálok figyelni rá, hogy mindenki szóhoz jusson. ',
       'Több kindenről kéne kikérni az emberek véleményét. '
     ]
-  
     const questions_f = [
       'Hajlandó vagyok feláldozni magam másokért. ',
       'Nem akarok hatalmat. ',
@@ -79,41 +73,33 @@ window.onload = function () {
       'Minden vélemény ugyanannyira értékes. ',
       'Mindent meg lehet bocsátani. ',
     ]
-  
     const questions_g = [
       'Hagyom magamat csapdába csalogatni. ',
       'A kíváncsiságom erősebb, mint az ösztöneim. ',
       'A tagadást felcserélem az értékválasztással.'
     ]
-  
     const questions_kv = [
       'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
       'Nem bánom, hogy nem vagyok különleges.',
       'El tudom engedni az egomat.',
       'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
     ]  
-
     const questions_h = [
       'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
       'Ha az igazság nehezen kifürkészhető, akkor elég a barátokra hagyatkozni. ',
       'A tisztelet fontosabb, mint hogy kinek van igaza.',
       'Együtt könnyebb.'
     ]
-
-
-
     const questions_22b = [
       'Kívülálló vagyok.'
     ]  
-
     const questions_22k = [
       'Az igazság üres. Nincs és soha nem is volt valódi személyiségem.'
     ]  
-
      const questions_22j = [
       'Mindenki egyedül hal meg.'
     ] 
-  
+
     function selectOneFrom (array) {
       const selected = array[Math.floor(Math.random() * array.length)]
       return selected
@@ -127,17 +113,17 @@ window.onload = function () {
       if (score < 0 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2b)
       }
-      if (score < 0 && 4 > questionNumber && questionNumber > 2) {
-        questionsPool.push(...questions_3b)
-      }
       if (score <= 0 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2k)
       }
-      if (score <= 0 && 4 > questionNumber && questionNumber > 2) {
-        questionsPool.push(...questions_3k)
-      }
       if (score > 0  && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2j)
+      }
+      if (score < 0 && 4 > questionNumber && questionNumber > 2) {
+        questionsPool.push(...questions_3b)
+      }
+      if (score <= 0 && 4 > questionNumber && questionNumber > 2) {
+        questionsPool.push(...questions_3k)
       }
       if (score > 0  && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3j)
