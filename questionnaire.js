@@ -31,32 +31,31 @@ window.onload = function () {
       'Nem hiszek az álmaimban. ',
       'A szerelem nem lehet az élet értelme.',
       'Jellemző, hogy elmenekülök a problémáim elől. ',
-      'A félelmeim határoznak meg. ',
-      'Ez hamis: A felelősség nem olyan fontos, mint az őszinteség. '
+      'A félelmeim határoznak meg. '
     ]
   
     const questions_b = [
-      'Minden emberben meg lehet bízni.',
-      'Minden élőlény hasznos.',
-      'Nehezemre esik hazudni. ',
-      'Nincsenek nagy kétségeim az élettel kapcsolatban.',
-      'Minden vélemény ugyanannyira értékes. ',
-      'Mindent meg lehet bocsátani. '
+      'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
+      'Ez hamis: A felelősség nem olyan fontos, mint az őszinteség.',
+      'Nincs olyan pillanat, mikor a hazugság elfogadható',
+      'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek'
+
     ]
   
     const questions_c = [
       'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
       'Hajlamos vagyok úszni az árral.',
-      'Kíváncsi ember vagyok.',
       'Sebezhető vagyok.',
       'Hajlamos vagyok cserélgetni az elveimet. ',
-      'Nem tudom jól meghúzni a határaimat. '
+      'Nem tudom jól meghúzni a határaimat. ',
+      'A szépség kevésbe fontos, mint a jóság',
+      'Mindig valakinek, vagy valaminek a szolgája vagyok. ',
+      'Nem fontos tudni mi a munka célja, ha egyértelmű, hogy mit kell csinálni.',
+
     ]
   
     const questions_d = [
-      'Ha azt látom, hogy valakit bántanak, megfigyelő maradok. ',
       'Ha megtagadom a válaszadást, akkor is válaszolok. ',
-      'Néha nehezen jutok döntésre. ',
       'Átlagos vagyok.',
       'Középszerű vagyok.',
       'Unalmas vagyok.'
@@ -74,10 +73,13 @@ window.onload = function () {
     ]
   
     const questions_f = [
-      'Nem fontos tudni mi a munka célja, ha egyértelmű, hogy mit kell csinálni.',
       'Hajlandó vagyok feláldozni magam másokért. ',
       'Nem akarok hatalmat. ',
-      'Tárgyalás révén mindig lehet jó kompromisszumot kötni. '
+      'Tárgyalás révén mindig lehet jó kompromisszumot kötni. ',
+      'Minden emberben meg lehet bízni.',
+      'Minden élőlény hasznos.',
+      'Minden vélemény ugyanannyira értékes. ',
+      'Mindent meg lehet bocsátani. ',
     ]
   
     const questions_g = [
@@ -142,10 +144,10 @@ window.onload = function () {
       if (score > 0  && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3j)
       }
-      if (-40 <= score && score < 0 && 3 < questionNumber) {
+      if (-40 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_a)
       }
-      if (-40 <= score && score <= -14 && 3 < questionNumber) {
+      if (-40 <= score && score <= -14 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_b)
       }
       if (-24 <= score && score < 24 && 3 < questionNumber && questionNumber < 15) {
@@ -154,10 +156,10 @@ window.onload = function () {
       if (-10 <= score && score < 10 && 3 < questionNumber) {
         questionsPool.push(...questions_d)
       }
-      if (0 <= score && score < 40 && 3 < questionNumber) {
+      if (0 <= score && score < 40 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_e)
       }
-      if (14 <= score && score < 40 && 3 < questionNumber) {
+      if (14 <= score && score < 40 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_f)
       }
       if (-40 <= score && score < -30 && 22 > questionNumber  && questionNumber > 15) {
@@ -169,13 +171,13 @@ window.onload = function () {
       if (30 <= score && score < 40 && 22 > questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_h)
       }
-      if (score < -38 && questionNumber > 21) {
+      if (score < -30 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
       }
       if (0 <= score && questionNumber > 21) {
         questionsPool.push(...questions_22k)
       }
-      if (score > 38 && questionNumber > 21) {
+      if (score > 30 && questionNumber > 21) {
         questionsPool.push(...questions_22j)
       }
 
