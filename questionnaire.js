@@ -4,6 +4,25 @@ window.onload = function () {
     const questions_1 = [
       'Irányítható vagyok.',
     ]  
+    const questions_2b = [
+      'A tagadás az énem felszámolása',
+    ]  
+    const questions_3b = [
+      'Önző vagyok.',
+    ]      
+    const questions_2k = [
+      'Ha nem döntök, megtalálhatom magam.',
+    ]  
+    const questions_3k = [
+      'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.',
+    ]  
+    const questions_2j = [
+      'Életigenlő vagyok.',
+    ]  
+     const questions_3j = [
+      'A felelősség ugyanolyan fontos, mint az őszinteség.',
+    ]  
+
     const questions_a = [
       'Befolyásolható vagyok.',
       'Könnyű megvezetni.',
@@ -11,11 +30,9 @@ window.onload = function () {
       'Nincsenek céljaim.',
       'Nem hiszek az álmaimban. ',
       'A szerelem nem lehet az élet értelme.',
-      'Nem érzem jól magam a bőrömben.',
-      'Gyáva vagyok.',
       'Jellemző, hogy elmenekülök a problémáim elől. ',
-      'Rossz ember vagyok.',
-      'A félelmeim határoznak meg. '
+      'A félelmeim határoznak meg. ',
+      'Ez hamis: A felelősség nem olyan fontos, mint az őszinteség. '
     ]
   
     const questions_b = [
@@ -28,14 +45,10 @@ window.onload = function () {
     ]
   
     const questions_c = [
-      'Ha valakit szépnek tartok, akkor jobban érint a véleménye.',
       'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
-      'Néha hagyom, hogy mások visszaéljenek a jóindulatommal. ',
-      'Nem szeretek terveket készíteni.',
       'Hajlamos vagyok úszni az árral.',
       'Kíváncsi ember vagyok.',
       'Sebezhető vagyok.',
-      'Szomorú vagyok, ha egyedül érzem magam. ',
       'Hajlamos vagyok cserélgetni az elveimet. ',
       'Nem tudom jól meghúzni a határaimat. '
     ]
@@ -68,7 +81,7 @@ window.onload = function () {
     ]
   
     const questions_g = [
-      'gyom magamat csapdába csalogatni. ',
+      'Hagyom magamat csapdába csalogatni. ',
       'A kíváncsiságom erősebb, mint az ösztöneim. ',
       'A tagadást felcserélem az értékválasztással.'
     ]
@@ -76,7 +89,8 @@ window.onload = function () {
     const questions_h = [
       'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
       'Ha az igazság nehezen kifürkészhető, akkor elég a barátokra hagyatkozni. ',
-      'Lehet csalni a jobb cél érdekében.'
+      'A tisztelet fontosabb, mint hogy kinek van igaza.',
+      'Együtt könnyebb.'
     ]
   
     function selectOneFrom (array) {
@@ -89,28 +103,46 @@ window.onload = function () {
       if (questionNumber < 2) {
         questionsPool.push(...questions_1) 
       } 
-      if (-40 <= score && score < 0 && 1 < questionNumber) {
+      if (score < 0 && 3 > questionNumber && questionNumber > 1) {
+        questionsPool.push(...questions_2b)
+      }
+      if (score < 0 && 4 > questionNumber && questionNumber > 2) {
+        questionsPool.push(...questions_3b)
+      }
+      if (score <= 0 && 3 > questionNumber && questionNumber > 1) {
+        questionsPool.push(...questions_2k)
+      }
+      if (score <= 0 && 4 > questionNumber && questionNumber > 2) {
+        questionsPool.push(...questions_3k)
+      }
+      if (score > 0  && 3 > questionNumber && questionNumber > 1) {
+        questionsPool.push(...questions_2j)
+      }
+      if (score > 0  && 4 > questionNumber && questionNumber > 2) {
+        questionsPool.push(...questions_3j)
+      }
+      if (-40 <= score && score < 0 && 3 < questionNumber) {
         questionsPool.push(...questions_a)
       }
-      if (-40 <= score && score <= -14 && 1 < questionNumber) {
+      if (-40 <= score && score <= -14 && 3 < questionNumber) {
         questionsPool.push(...questions_b)
       }
-      if (-24 <= score && score < 24 && 1 < questionNumber && questionNumber < 15) {
+      if (-24 <= score && score < 24 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_c)
       }
-      if (-10 <= score && score < 10 && 1 < questionNumber) {
+      if (-10 <= score && score < 10 && 3 < questionNumber) {
         questionsPool.push(...questions_d)
       }
-      if (0 <= score && score < 40 && 1 < questionNumber) {
+      if (0 <= score && score < 40 && 3 < questionNumber) {
         questionsPool.push(...questions_e)
       }
-      if (14 <= score && score < 40 && 1 < questionNumber) {
+      if (14 <= score && score < 40 && 3 < questionNumber) {
         questionsPool.push(...questions_f)
       }
-      if (-40 <= score && score < -30 && 1 < questionNumber  && questionNumber > 15) {
+      if (-40 <= score && score < -30 && 3 < questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_g)
       }
-      if (30 <= score && score < 40 && 1 < questionNumber  && questionNumber > 15) {
+      if (30 <= score && score < 40 && 3 < questionNumber  && questionNumber > 15) {
         questionsPool.push(...questions_h)
       }
   
@@ -129,6 +161,12 @@ window.onload = function () {
     function deleteSelectedQuestion (toDelete) {
       for (let questionsArray of [
         questions_1,
+        questions_2b,
+        questions_3b,
+        questions_2k,
+        questions_3k,
+        questions_2j,
+        questions_3j,
         questions_a,
         questions_b,
         questions_c,
