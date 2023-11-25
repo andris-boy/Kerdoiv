@@ -39,7 +39,6 @@ window.onload = function () {
       'Ez hamis: A felelősség nem olyan fontos, mint az őszinteség.',
       'Nincs olyan pillanat, mikor a hazugság elfogadható',
       'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek'
-
     ]
   
     const questions_c = [
@@ -51,7 +50,6 @@ window.onload = function () {
       'A szépség kevésbe fontos, mint a jóság',
       'Mindig valakinek, vagy valaminek a szolgája vagyok. ',
       'Nem fontos tudni mi a munka célja, ha egyértelmű, hogy mit kell csinálni.',
-
     ]
   
     const questions_d = [
@@ -92,7 +90,7 @@ window.onload = function () {
       'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
       'Nem bánom, hogy nem vagyok különleges.',
       'El tudom engedni az egomat.',
-      'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire amire az állítás eredetileg vonatkozik.',
+      'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
     ]  
 
     const questions_h = [
@@ -174,7 +172,7 @@ window.onload = function () {
       if (score < -30 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
       }
-      if (0 <= score && questionNumber > 21) {
+      if (-20 <= score && questionNumber > 21) {
         questionsPool.push(...questions_22k)
       }
       if (score > 30 && questionNumber > 21) {
