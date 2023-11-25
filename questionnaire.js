@@ -2,25 +2,25 @@
 // ...
 window.onload = function () {
     const questions_1 = [
-      'Irányítható vagyok.',
+      'Irányítható vagyok.'
     ]  
     const questions_2b = [
-      'A tagadás az énem felszámolása',
+      'A tagadás az énem felszámolása'
     ]  
     const questions_3b = [
-      'Önző vagyok.',
+      'Önző vagyok.'
     ]      
     const questions_2k = [
-      'Ha nem döntök, megtalálhatom magam.',
+      'Ha nem döntök, megtalálhatom magam.'
     ]  
     const questions_3k = [
-      'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.',
+      'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
     ]  
     const questions_2j = [
-      'Életigenlő vagyok.',
+      'Életigenlő vagyok.'
     ]  
      const questions_3j = [
-      'A felelősség ugyanolyan fontos, mint az őszinteség.',
+      'A felelősség ugyanolyan fontos, mint az őszinteség.'
     ]
     const questions_be = [
       'Befolyásolható vagyok.',
@@ -38,6 +38,7 @@ window.onload = function () {
       'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
       'A felelősség legalább olyan fontos, mint az őszinteség.',
       'Nincs olyan pillanat, mikor a hazugság elfogadható',
+      'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
       'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek'
     ]
     const questions_ke = [
@@ -65,24 +66,25 @@ window.onload = function () {
       'Hajlandó vagyok lemondani az irányításról a nagyobb jó érdekében. ',
       'Próbálok odafigyelni mások érzelmeire.',
       'Ha többen beszélgetünk, próbálok figyelni rá, hogy mindenki szóhoz jusson. ',
-      'Több kindenről kéne kikérni az emberek véleményét. ',
+      'Több kindenről kéne kikérni az emberek véleményét. '
     ]
     const questions_jk = [
       'Hajlandó vagyok feláldozni magam másokért. ',
-      'Nem akarok hatalmat. ',
+      'Nem akarok a világ ura lenni. ',
       'Tárgyalás révén mindig lehet jó kompromisszumot kötni. ',
       'Minden emberben meg lehet bízni.',
       'Minden élőlény hasznos.',
       'Minden vélemény ugyanannyira értékes. ',
       'Mindent meg lehet bocsátani. ',
-      'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki',
+      'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki'
     ]
     const questions_bv = [
       'Hagyom magamat csapdába csalogatni. ',
       'A tiszta kíváncsiság szörnyeteggé tehet.',
       'A tagadást felcserélem az értékválasztással.',
       'Nem akarok tudni bizonyos dolgokról',
-      'A szerelem lényege az, hogy a másikból magamra tudok nézni.'
+      'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
+      'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet'
     ]
     const questions_kv = [
       'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
@@ -98,7 +100,9 @@ window.onload = function () {
       'A köklcsönös tisztelet fontosabb, mint hogy kinek van igaza.',
       'Együtt könnyebb.',
       'Az életem értelmét megtalálhatom a többiekben.',
-      'A szerelem lényege, hogy kiegészítjük egymást.'
+      'A szerelem lényege, hogy kiegészítjük egymást.',
+      'Ha másokat kéne vezetnem, az torzítaná a személyiségemet',
+      'Nem tudnám eldönteni, hogy két ember közül melyikük élete értékesebb.'
 
     ]
     const questions_22b = [
@@ -145,7 +149,7 @@ window.onload = function () {
       if (-44 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_be)
       }
-      if (-44 <= score && score < -14 && 7 < questionNumber && questionNumber < 20) {
+      if (-44 <= score && score < -10 && 7 < questionNumber && questionNumber < 20) {
         questionsPool.push(...questions_bk)
       }
 
