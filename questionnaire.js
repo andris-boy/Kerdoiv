@@ -192,7 +192,7 @@ window.onload = function () {
     
     function displayQuestion () {
       const questionText = document.getElementById('question-text')
-      if (questionNumber <= 20) {
+      if (questionNumber <= 22) {
         const selectedQuestion = selectQuestion(questionNumber, currentScore)
 
         // Remake question paragraph in the DOM
