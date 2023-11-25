@@ -31,7 +31,8 @@ window.onload = function () {
       'Nem hiszek az álmaimban. ',
       'Jellemző, hogy elmenekülök a problémáim elől. ',
       'A félelmeim határoznak meg. ',
-      'Fantomok között élek'
+      'Fantomok között élek',
+      'Nem vagyok méltó a bennem lévő potenciálra.'
     ]
     const questions_bk = [
       'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
@@ -44,7 +45,8 @@ window.onload = function () {
       'Hajlamos vagyok úszni az árral.',
       'Sebezhető vagyok.',
       'A szépség kevésbe fontos, mint a jóság',
-      'Mindig valakinek, vagy valaminek a szolgája vagyok. '
+      'A türelem fontosabb, mint a szabadság.',
+      'Vannak helyzetek, amikben nem érdemes dönteni.'
     ]
     const questions_kk = [
       'Ha megtagadom a válaszadást, akkor is válaszolok. ',
@@ -63,7 +65,7 @@ window.onload = function () {
       'Hajlandó vagyok lemondani az irányításról a nagyobb jó érdekében. ',
       'Próbálok odafigyelni mások érzelmeire.',
       'Ha többen beszélgetünk, próbálok figyelni rá, hogy mindenki szóhoz jusson. ',
-      'Több kindenről kéne kikérni az emberek véleményét. '
+      'Több kindenről kéne kikérni az emberek véleményét. ',
     ]
     const questions_jk = [
       'Hajlandó vagyok feláldozni magam másokért. ',
@@ -72,7 +74,8 @@ window.onload = function () {
       'Minden emberben meg lehet bízni.',
       'Minden élőlény hasznos.',
       'Minden vélemény ugyanannyira értékes. ',
-      'Mindent meg lehet bocsátani. '
+      'Mindent meg lehet bocsátani. ',
+      'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki',
     ]
     const questions_bv = [
       'Hagyom magamat csapdába csalogatni. ',
@@ -99,7 +102,7 @@ window.onload = function () {
 
     ]
     const questions_22b = [
-      'Eltakarom magam elől a világot.'
+      'Eltakarom magam elől a világot. Kívülálló vagyok.'
     ]  
     const questions_22k = [
       'Nincs és soha nem is volt valódi személyiségem. Űr vagyok, ami a világra nyílik.'
@@ -122,51 +125,51 @@ window.onload = function () {
       if (score < 0 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2b)
       }
-      if (score > 0  && 3 > questionNumber && questionNumber > 1) {
+      if (0 < score && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2j)
       }
-      if (score > -1 && score < 1 && 3 > questionNumber && questionNumber > 1) {
+      if (-1 < score && score < 1 && 3 > questionNumber && questionNumber > 1) {
         questionsPool.push(...questions_2k)
       }
 
       if (score < 0 && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3b)
       }
-      if (score > -2 && score < 2 && 4 > questionNumber && questionNumber > 2) {
+      if (-2 < score && score < 2 && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3k)
       }
-      if (score > 0  && 4 > questionNumber && questionNumber > 2) {
+      if (0 < score  && 4 > questionNumber && questionNumber > 2) {
         questionsPool.push(...questions_3j)
       }
 
       if (-44 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_be)
       }
-      if (-44 <= score && score <= -14 && 7 < questionNumber && questionNumber < 15) {
+      if (-44 <= score && score < -14 && 7 < questionNumber && questionNumber < 20) {
         questionsPool.push(...questions_bk)
       }
 
-      if (- 6 <= score && score < 6 && 3 < questionNumber && questionNumber < 15) {
+      if (- 6 <= score && score <= 6 && 3 < questionNumber && questionNumber < 10) {
         questionsPool.push(...questions_ke)
       }
-      if (-3 <= score && score < 3 && 3 < questionNumber&& questionNumber < 15) {
+      if (-5 <= score && score <= 5 && 3 < questionNumber&& questionNumber < 20) {
         questionsPool.push(...questions_kk)
       }
 
-      if (4 <= score && score < 44 && 3 < questionNumber && questionNumber < 15) {
+      if (0 < score && score < 44 && 3 < questionNumber && questionNumber < 15) {
         questionsPool.push(...questions_je)
       }
-      if (14 <= score && score < 44 &&  7 < questionNumber && questionNumber < 15) {
+      if (14 < score && score < 44 &&  7 < questionNumber && questionNumber < 20) {
         questionsPool.push(...questions_jk)
       }
 
-      if (-44 <= score && score < -14 && 22 > questionNumber  && questionNumber >= 15) {
+      if (-44 <= score && score < -22 && 17 <= questionNumber  && questionNumber < 22) {
         questionsPool.push(...questions_bv)
       }
-      if (score >=-10  && score <= 10 && 15 < questionNumber &&  questionNumber < 22) {
+      if (-10 <= score  && score <= 10 && 17 <= questionNumber  && questionNumber < 22) {
         questionsPool.push(...questions_kv)
       }
-      if (30 <= score && score < 44 && 22 > questionNumber  && questionNumber > 15) {
+      if (22 <= score && score < 44 && 17 <= questionNumber  && questionNumber < 22 ) {
         questionsPool.push(...questions_jv)
       }
 
