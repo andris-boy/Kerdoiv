@@ -11,7 +11,7 @@ window.onload = function () {
       'Önző vagyok.'
     ]      
     const questions_2k = [
-      'Ha nem döntök, megtalálhatom magam.'
+      'Ha megtagadom a döntést, akkor közelebb kerülhetek saját magam tisztasághoz.'
     ]  
     const questions_3k = [
       'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
@@ -113,7 +113,7 @@ window.onload = function () {
       'Eltakarom magam elől a világot. Kívülálló vagyok.'
     ]  
     const questions_22k = [
-      'Nincs és soha nem is volt valódi személyiségem. Űr vagyok, ami a világra nyílik.'
+      'Nincs és soha nem is volt valódi személyiségem. Az egymásra rétegződő állarcok mélyén a Semmi van, amit a tévelygésem életre kelt. Űr vagyok, ami a világra nyílik.'
     ]  
      const questions_22j = [
       'Mindenki egyedül hal meg.'
@@ -181,13 +181,13 @@ window.onload = function () {
         questionsPool.push(...questions_jv)
       }
 
-      if (score < -10 && questionNumber > 21) {
+      if (score < -6 && questionNumber > 21) {
         questionsPool.push(...questions_22b)
       }
-      if (-10 <= score && score <= 10 && questionNumber > 21) {
+      if (-6 <= score && score <= 6 && questionNumber > 21) {
         questionsPool.push(...questions_22k)
       }
-      if (score > 10 && questionNumber > 21) {
+      if (score > 6 && questionNumber > 21) {
         questionsPool.push(...questions_22j)
       }
 
