@@ -24,10 +24,25 @@ p {
   width: 50%;
 }
 
+.piktogram-image {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+
 .fade-in-text {
   animation: fadeIn 6s;
 }
 @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-image {
+  animation: fadeInImg 6s;
+}
+@keyframes fadeInImg {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
@@ -51,7 +66,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2cm;
+    margin-top: 1cm;
 }
 
 .button {
@@ -132,19 +147,18 @@ p {
 
   #reset-button {
     border: none;
-    border: 1px solid red;
     background: none;
-    width: 2cm;
+    width: 80px;
     max-width: 80%;
-    height: 1cm;
+    height: 80px;
     max-height: 80%;
     padding: 0;
-    background-image: url("vissza_still.gif") ;
+    background-image: url("reset1.png") ;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
 #reset-button:hover {
-  background-image: url("vissza.gif") ;
+  background-image: url("reset2.png") ;
 }
