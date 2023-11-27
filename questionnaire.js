@@ -1,5 +1,4 @@
-// Place your JavaScript code here
-// ...
+
 window.onload = function () {
     const questions_1 = [
       'Irányítható vagyok.'
@@ -26,7 +25,7 @@ window.onload = function () {
       'Befolyásolható vagyok.',
       'Könnyű megvezetni.',
       'Nem tudok gondoskodni magamról.',
-      'Hajlamos vagyok cserélgetni az elveimet. ',
+      'Hajlamos vagyok cserélgetni az elveimet.',
       'Nincsenek valódi céljaim.',
       'Nem hiszek az álmaimban. ',
       'A félelmeim határoznak meg. ',
@@ -40,7 +39,8 @@ window.onload = function () {
       'Elmenekülök a problémáim elől. ',
       'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
       'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek',
-      'Nem én vagyok a legfontosabb a asaját életemben.'
+      'Nem én vagyok a legfontosabb a saját életemben.',
+      'Mindig ilyen negatív vagyok'
     ]
     const questions_ke = [
       'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
