@@ -26,7 +26,7 @@ window.onload = function () {
       'Irányítható vagyok.'
     ]
     questions_2b = [
-      'A tagadás az énem felszámolása'
+      'A tagadásban nincs érték.'
     ]
     questions_3b = [
       'Önző vagyok.'
@@ -65,7 +65,6 @@ window.onload = function () {
       'Mindig ilyen negatív vagyok'
     ]
     questions_ke = [
-      'Nem tudom megélni a fájdalmat közvetítők (médiumok) segítsége nélkül. ',
       'Hajlamos vagyok úszni az árral.',
       'Sebezhető vagyok.',
       'A szépség kevésbe fontos, mint a jóság',
@@ -80,7 +79,8 @@ window.onload = function () {
       'Unalmas vagyok.',
       'Nem vagyok jobb vagy különb a többieknél',
       'Érdektelen vagyok',
-      'A jelentőségem viszonylagos'
+      'A jelentőségem viszonylagos',
+      'Monoton vagyok'
     ]
     questions_je = [
       'Szeretek segíteni másoknak. ',
@@ -100,6 +100,7 @@ window.onload = function () {
       'Minden élőlény hasznos.',
       'Minden vélemény ugyanannyira értékes. ',
       'Mindent meg lehet bocsátani. ',
+      'Nem tudom meghatározni magamat külső segítség nélkül. ',
       'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki'
     ]
     questions_bv = [
@@ -117,6 +118,7 @@ window.onload = function () {
       'El tudom engedni az egomat.',
       'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
       'El tudom engedni magam.',
+      'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív',
       'A szerelem lényege a kölcsönös szabadság.'
     ]
     questions_jv = [
