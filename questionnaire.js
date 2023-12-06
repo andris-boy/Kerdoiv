@@ -29,7 +29,7 @@ window.onload = function () {
       'A tagadásban nincs érték.'
     ]
     questions_3b = [
-      'Önző vagyok.'
+      'Tényleg ezt választod? Na jó, de ezt már biztos beismered: Önző vagyok.'
     ]
     questions_2k = [
       'Ha megtagadom a döntést, akkor közelebb kerülhetek saját magam tisztasághoz.'
@@ -38,7 +38,7 @@ window.onload = function () {
       'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
     ]
     questions_2j = [
-      'Életigenlő vagyok.'
+      'Kedvellek téged! Kérlek maradj továbbra is  ilyen pozitív. Itt egy állítás, csak neked: Életigenlő vagyok.'
     ]
     questions_3j = [
       'A felelősség ugyanolyan fontos, mint az őszinteség.'
@@ -50,7 +50,7 @@ window.onload = function () {
       'Hajlamos vagyok cserélgetni az elveimet.',
       'Nincsenek valódi céljaim.',
       'Nem hiszek az álmaimban. ',
-      'A félelmeim határoznak meg. ',
+      'A félelmeim határoznak meg. ', 
       'Fantomok között élek',
       'Nem vagyok méltó a bennem lévő potenciálra.'
     ]
@@ -76,8 +76,8 @@ window.onload = function () {
       'Átlagos vagyok.',
       'Középszerű vagyok.',
       'Nincs új a nap alatt',
-      'Unalmas vagyok.',
-      'Nem vagyok jobb vagy különb a többieknél',
+      'Nem viszonyulsz túl kreatívan az állításoaimhoz. Erősítsd csak magadban: Unalmas vagyok.',
+      'Nem vagyok jobb vagy különb a többieknél.',
       'Érdektelen vagyok',
       'A jelentőségem viszonylagos',
       'Monoton vagyok'
@@ -90,10 +90,11 @@ window.onload = function () {
       'Hajlandó vagyok lemondani az irányításról a nagyobb jó érdekében. ',
       'Próbálok odafigyelni mások érzelmeire.',
       'Ha többen beszélgetünk, próbálok figyelni rá, hogy mindenki szóhoz jusson. ',
-      'Több kindenről kéne kikérni az emberek véleményét. '
+      'Több mindenről kéne kikérni az emberek véleményét. '
     ]
     questions_jk = [
       'Hajlandó vagyok feláldozni magam másokért. ',
+      'Takaros kis léleknek tűnsz. Tessék, itt egy könnyű állítás jutalom gyanánt: Megérdemlem a sorsomat.',
       'Nem akarok a világ ura lenni. ',
       'Tárgyalás révén mindig lehet jó kompromisszumot kötni. ',
       'Minden emberben meg lehet bízni.',
