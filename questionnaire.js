@@ -38,7 +38,7 @@ window.onload = function () {
       'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
     ]
     questions_2j = [
-      'Kedvellek téged! Kérlek maradj továbbra is  ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
+      'Kedvellek téged! Kérlek maradj továbbra is ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
     ]
     questions_3j = [
       'A felelősség ugyanolyan fontos, mint az őszinteség.'
