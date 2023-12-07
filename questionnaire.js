@@ -109,7 +109,7 @@ window.onload = function () {
         'Nem akarok a világ ura lenni. ',
         'Tárgyalás révén mindig lehet jó kompromisszumot kötni. ',
         'Minden emberben meg lehet bízni.',
-        'Minden élőlény hasznos.',
+        'Minden élőlény hasznára válik a világnak.',
         'Minden vélemény ugyanannyira értékes. ',
         'Mindent meg lehet bocsátani. ',
         'Sebezhető vagyok.',
@@ -124,6 +124,7 @@ window.onload = function () {
         'A tiszta kíváncsiság szörnyeteggé tehet.',
         'A tagadást felcserélem az értékválasztással.',
         'Nem akarok tudni bizonyos dolgokról',
+        'Hagyom, hogy az állítások megvezessenek és nem tudom szabaddá tenni a lelket, amit kaptam.',
         'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
         'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
         'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet.'
@@ -150,11 +151,11 @@ window.onload = function () {
       ]
   
       questions_21b = [
-        'Kívülálló vagyok.'
+        'Eltakarom magam elől a világot.'
       ]
   
       questions_22b = [
-        'Eltakarom magam elől a világot.'
+        'Kívülálló vagyok.'
       ]
       questions_22k = [
         'Nincs és soha nem is volt valódi személyiségem. Álarcaim sokasága mögött Semmi van, amit a tévelygésem életre kelt. Űr vagyok, ami a világra nyílik.'
@@ -222,13 +223,13 @@ window.onload = function () {
       }
   
   
-      if (-44 <= score && score < -16 && 15 <= questionNumber && questionNumber < 21) {
+      if (-44 <= score && score < -6 && 15 <= questionNumber && questionNumber < 21) {
         questionsPool.push(...questions_bv)
       }
-      if (-16 <= score && score <= 16 && 16 <= questionNumber && questionNumber < 22) {
+      if (-6 <= score && score <= 6 && 16 <= questionNumber && questionNumber < 22) {
         questionsPool.push(...questions_kv)
       }
-      if (16 <= score && score < 44 && 15 <= questionNumber && questionNumber < 22) {
+      if (6 <= score && score < 44 && 15 <= questionNumber && questionNumber < 22) {
         questionsPool.push(...questions_jv)
       }
   
