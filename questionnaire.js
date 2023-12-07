@@ -39,7 +39,7 @@ window.onload = function () {
     questions_3k = [
       'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
     ]
-    
+
     questions_2j = [
       'Kedvellek téged! Kérlek maradj továbbra is ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
     ]
@@ -193,15 +193,15 @@ window.onload = function () {
     if (-44 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
       questionsPool.push(...questions_be)
     }
-    if (-44 <= score && score < -10 && 7 < questionNumber && questionNumber < 20) {
+    if (-44 <= score && score < -10 && 7 < questionNumber && questionNumber < 18) {
       questionsPool.push(...questions_bk)
     }
 
 
-    if (- 6 <= score && score <= 6 && 3 < questionNumber && questionNumber < 10) {
+    if (- 6 <= score && score <= 6 && 3 < questionNumber && questionNumber < 7) {
       questionsPool.push(...questions_ke)
     }
-    if (-5 <= score && score <= 5 && 3 < questionNumber && questionNumber < 20) {
+    if (-5 <= score && score <= 5 && 3 < questionNumber && questionNumber < 18) {
       questionsPool.push(...questions_kk)
     }
 
@@ -209,7 +209,7 @@ window.onload = function () {
     if (0 < score && score < 44 && 3 < questionNumber && questionNumber < 15) {
       questionsPool.push(...questions_je)
     }
-    if (14 < score && score < 44 && 7 < questionNumber && questionNumber < 20) {
+    if (14 < score && score < 44 && 7 < questionNumber && questionNumber < 18) {
       questionsPool.push(...questions_jk)
     }
 
