@@ -50,6 +50,8 @@ window.onload = function () {
       questions_be = [
         'Befolyásolható vagyok.',
         'Könnyű megvezetni.',
+        'Ostoba vagyok.',
+        'Életképtelen vagyok.',
         'Nem tudok gondoskodni magamról.',
         'Hajlamos vagyok cserélgetni az elveimet.',
         'Nincsenek valódi céljaim.',
@@ -70,7 +72,6 @@ window.onload = function () {
       ]
       questions_ke = [
         'Hajlamos vagyok úszni az árral.',
-        'Sebezhető vagyok.',
         'A szépség kevésbe fontos, mint a jóság',
         'A türelem fontosabb, mint a szabadság.',
         'Vannak helyzetek, amikben nem érdemes dönteni.'
@@ -78,10 +79,14 @@ window.onload = function () {
       questions_kk = [
         'Ha megtagadom a válaszadást, akkor is válaszolok. ',
         'Átlagos vagyok.',
+        'Nem azért töltögetem ki ezeket a kérdőíveket, mert tényleg változást remélek, csak így próbálom meg elhessegetni magamtól a gondolatot, hogy az életem teljesen átlagos és kötött pályán mozog',
         'Középszerű vagyok.',
         'Nincs új a nap alatt',
-        'Nem viszonyulsz túl kreatívan az állításoaimhoz. Erősítsd csak magadban: Unalmas vagyok.',
+        'Unalmas vagyok.',
+        'Nem viszonyulok túl kreatívan az állításokhoz. Nem tisztelem a rám bízott lelket.',
+        'Nem tisztelem a rám bízott lelket.',
         'Nem vagyok jobb vagy különb a többieknél.',
+        'Teljesen elvtelenül válaszolgatok.',
         'Érdektelen vagyok.',
         'A jelentőségem viszonylagos.',
         'Monoton vagyok.'
@@ -107,6 +112,7 @@ window.onload = function () {
         'Minden élőlény hasznos.',
         'Minden vélemény ugyanannyira értékes. ',
         'Mindent meg lehet bocsátani. ',
+        'Sebezhető vagyok.',
         'Nem tudom meghatározni magamat külső segítség nélkül. ',
         'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
       ]
@@ -227,16 +233,16 @@ window.onload = function () {
       }
   
   
-      if (score < -6 && 21 == questionNumber) {
+      if (score < -2 && 21 == questionNumber) {
         questionsPool.push(...questions_21b)
       }
-      if (score < -6 && 22 == questionNumber) {
+      if (score < -2 && 22 == questionNumber) {
         questionsPool.push(...questions_22b)
       }
-      if (-6 <= score && score <= 6 && 22 == questionNumber) {
+      if (-2 <= score && score <= 2 && 22 == questionNumber) {
         questionsPool.push(...questions_22k)
       }
-      if (score > 6 && 22 == questionNumber) {
+      if (score > 2 && 22 == questionNumber) {
         questionsPool.push(...questions_22j)
       }
   
