@@ -25,24 +25,28 @@ window.onload = function () {
     questions_1 = [
       'Irányítható vagyok.'
     ]
+
     questions_2b = [
       'A tagadásban nincs érték.'
     ]
     questions_3b = [
       'Önző vagyok.'
     ]
+
     questions_2k = [
       'Ha megtagadom a döntést, akkor közelebb kerülhetek saját magam tisztasághoz.'
     ]
     questions_3k = [
       'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
     ]
+    
     questions_2j = [
       'Kedvellek téged! Kérlek maradj továbbra is ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
     ]
     questions_3j = [
       'A felelősség ugyanolyan fontos, mint az őszinteség.'
     ]
+
     questions_be = [
       'Befolyásolható vagyok.',
       'Könnyű megvezetni.',
@@ -104,6 +108,9 @@ window.onload = function () {
       'Nem tudom meghatározni magamat külső segítség nélkül. ',
       'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
     ]
+
+
+
     questions_bv = [
       'Hagyom magamat csapdába csalogatni. ',
       'A tiszta kíváncsiság szörnyeteggé tehet.',
@@ -132,7 +139,6 @@ window.onload = function () {
       'Ha másokat kéne vezetnem, az torzítaná a személyiségemet',
       'Nem tudnám eldönteni, hogy két ember közül melyikük élete értékesebb.',
       'Azzá válok, aminek mások látnak.'
-
     ]
 
     questions_21b = [
@@ -162,24 +168,24 @@ window.onload = function () {
       questionsPool.push(...questions_1)
     }
 
-    if (score < 0 && 3 > questionNumber && questionNumber > 1) {
+    if (score < 0 && 1 < questionNumber && questionNumber < 3) {
       questionsPool.push(...questions_2b)
     }
-    if (0 < score && 3 > questionNumber && questionNumber > 1) {
+    if (0 < score && 1 < questionNumber && questionNumber < 3) {
       questionsPool.push(...questions_2j)
     }
-    if (-1 < score && score < 1 && 3 > questionNumber && questionNumber > 1) {
+    if (-1 < score && score < 1 && 1 < questionNumber && questionNumber < 3) {
       questionsPool.push(...questions_2k)
     }
 
-    
-    if (score < 0 && 4 > questionNumber && questionNumber > 2) {
+
+    if (score < 0 && 2 < questionNumber && questionNumber < 4) {
       questionsPool.push(...questions_3b)
     }
-    if (-2 < score && score < 2 && 4 > questionNumber && questionNumber > 2) {
+    if (-2 < score && score < 2 && 2 < questionNumber && questionNumber < 4) {
       questionsPool.push(...questions_3k)
     }
-    if (0 < score && 4 > questionNumber && questionNumber > 2) {
+    if (0 < score && 2 < questionNumber && questionNumber < 4) {
       questionsPool.push(...questions_3j)
     }
 
@@ -219,16 +225,16 @@ window.onload = function () {
     }
 
 
-    if (score < -6 && 20 < questionNumber && questionNumber < 22) {
+    if (score < -6 && 21 == questionNumber) {
       questionsPool.push(...questions_21b)
     }
-    if (score < -6 && questionNumber > 21) {
+    if (score < -6 && 22 == questionNumber > 21) {
       questionsPool.push(...questions_22b)
     }
-    if (-6 <= score && score <= 6 && questionNumber > 21) {
+    if (-6 <= score && score <= 6 && 22 == questionNumber) {
       questionsPool.push(...questions_22k)
     }
-    if (score > 6 && questionNumber > 21) {
+    if (score > 6 && 22 == questionNumber) {
       questionsPool.push(...questions_22j)
     }
 
