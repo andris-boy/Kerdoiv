@@ -526,7 +526,7 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő és a világ együtt léteznek tovább. \r\n \r\n Ha úgy gondolod, hogy a létezése nem tart jó tükröt a személyiségednek, nyugodtan alkoss egy másikat. `
+        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő és a világ együtt léteznek. \r\n \r\n Ha kíváncsi vagy, nyugodtan próbálj ki egy másik lelket. `
         answerButtons.innerHTML = ''
         resetButton.style.display = 'block'
       }
