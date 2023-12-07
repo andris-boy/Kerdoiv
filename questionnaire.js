@@ -89,6 +89,8 @@ window.onload = function () {
     questions_je = [
       'Szeretek segíteni másoknak. ',
       'Szívesen dolgozom csapatban ',
+      'Vannak barátaim.',
+      'Megbízom az emberekben.',
       'Szeretem pontosan tudni, hogy mit várnak el tőlem.',
       'Szeretek tisztában lenni a játékszabályokkal.',
       'Hajlandó vagyok lemondani az irányításról a nagyobb jó érdekében. ',
@@ -209,7 +211,7 @@ window.onload = function () {
     if (0 < score && score < 44 && 3 < questionNumber && questionNumber < 15) {
       questionsPool.push(...questions_je)
     }
-    if (14 < score && score < 44 && 7 < questionNumber && questionNumber < 18) {
+    if (10 < score && score < 44 && 7 < questionNumber && questionNumber < 18) {
       questionsPool.push(...questions_jk)
     }
 
