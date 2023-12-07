@@ -311,7 +311,7 @@ window.onload = function () {
     }
     if (15 < questionNumber && questionNumber <= 22 ) {
       const scoreA = 3
-      const scoreB = 12
+      const scoreB = 17
       const scoreC = 40
 
       if (score < -scoreC) {
