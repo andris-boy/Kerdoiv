@@ -228,7 +228,7 @@ window.onload = function () {
     if (score < -6 && 21 == questionNumber) {
       questionsPool.push(...questions_21b)
     }
-    if (score < -6 && 22 == questionNumber > 21) {
+    if (score < -6 && 22 == questionNumber) {
       questionsPool.push(...questions_22b)
     }
     if (-6 <= score && score <= 6 && 22 == questionNumber) {
