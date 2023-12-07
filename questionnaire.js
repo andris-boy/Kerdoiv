@@ -217,7 +217,7 @@ window.onload = function () {
     if (-44 <= score && score < -22 && 17 <= questionNumber && questionNumber < 21) {
       questionsPool.push(...questions_bv)
     }
-    if (-10 <= score && score <= 10 && 17 <= questionNumber && questionNumber < 22) {
+    if (-10 <= score && score <= 10 && 15 <= questionNumber && questionNumber < 22) {
       questionsPool.push(...questions_kv)
     }
     if (22 <= score && score < 44 && 17 <= questionNumber && questionNumber < 22) {
