@@ -172,6 +172,7 @@ window.onload = function () {
       questionsPool.push(...questions_2k)
     }
 
+    
     if (score < 0 && 4 > questionNumber && questionNumber > 2) {
       questionsPool.push(...questions_3b)
     }
@@ -182,12 +183,14 @@ window.onload = function () {
       questionsPool.push(...questions_3j)
     }
 
+
     if (-44 <= score && score < 0 && 3 < questionNumber && questionNumber < 15) {
       questionsPool.push(...questions_be)
     }
     if (-44 <= score && score < -10 && 7 < questionNumber && questionNumber < 20) {
       questionsPool.push(...questions_bk)
     }
+
 
     if (- 6 <= score && score <= 6 && 3 < questionNumber && questionNumber < 10) {
       questionsPool.push(...questions_ke)
@@ -196,12 +199,14 @@ window.onload = function () {
       questionsPool.push(...questions_kk)
     }
 
+
     if (0 < score && score < 44 && 3 < questionNumber && questionNumber < 15) {
       questionsPool.push(...questions_je)
     }
     if (14 < score && score < 44 && 7 < questionNumber && questionNumber < 20) {
       questionsPool.push(...questions_jk)
     }
+
 
     if (-44 <= score && score < -22 && 17 <= questionNumber && questionNumber < 21) {
       questionsPool.push(...questions_bv)
@@ -212,6 +217,7 @@ window.onload = function () {
     if (22 <= score && score < 44 && 17 <= questionNumber && questionNumber < 22) {
       questionsPool.push(...questions_jv)
     }
+
 
     if (score < -6 && 20 < questionNumber && questionNumber < 22) {
       questionsPool.push(...questions_21b)
