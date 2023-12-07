@@ -29,7 +29,7 @@ window.onload = function () {
       'A tagadásban nincs érték.'
     ]
     questions_3b = [
-      'Tényleg ezt választod? Na jó, de ezt már biztos beismered: Önző vagyok.'
+      'Önző vagyok.'
     ]
     questions_2k = [
       'Ha megtagadom a döntést, akkor közelebb kerülhetek saját magam tisztasághoz.'
@@ -244,9 +244,9 @@ window.onload = function () {
     // 1-8: I -3 (-scoreC) I -2 (-scoreB) I -1 (-scoreA) I 0 I 1 (scoreA) I 2 (scoreB) I 3 (scoreC) I
 
     if (0 < questionNumber && questionNumber <= 8 ) {
-      const scoreA = 2
+      const scoreA = 1
       const scoreB = 6
-      const scoreC = 14
+      const scoreC = 10
 
       if (score < -scoreC) {
         return 'I -3.png'
@@ -271,7 +271,7 @@ window.onload = function () {
       }
     }
     if (8 < questionNumber && questionNumber <= 15 ) {
-      const scoreA = 4
+      const scoreA = 2
       const scoreB = 10
       const scoreC = 22
 
@@ -298,7 +298,7 @@ window.onload = function () {
       }
     }
     if (15 < questionNumber && questionNumber <= 22 ) {
-      const scoreA = 8
+      const scoreA = 3
       const scoreB = 12
       const scoreC = 40
 
