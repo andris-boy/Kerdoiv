@@ -78,9 +78,9 @@ window.onload = function () {
       'Nincs új a nap alatt',
       'Nem viszonyulsz túl kreatívan az állításoaimhoz. Erősítsd csak magadban: Unalmas vagyok.',
       'Nem vagyok jobb vagy különb a többieknél.',
-      'Érdektelen vagyok',
-      'A jelentőségem viszonylagos',
-      'Monoton vagyok'
+      'Érdektelen vagyok.',
+      'A jelentőségem viszonylagos.',
+      'Monoton vagyok.'
     ]
     questions_je = [
       'Szeretek segíteni másoknak. ',
@@ -102,7 +102,7 @@ window.onload = function () {
       'Minden vélemény ugyanannyira értékes. ',
       'Mindent meg lehet bocsátani. ',
       'Nem tudom meghatározni magamat külső segítség nélkül. ',
-      'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki'
+      'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
     ]
     questions_bv = [
       'Hagyom magamat csapdába csalogatni. ',
@@ -111,7 +111,7 @@ window.onload = function () {
       'Nem akarok tudni bizonyos dolgokról',
       'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
       'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
-      'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet'
+      'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet.'
     ]
     questions_kv = [
       'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
@@ -125,7 +125,7 @@ window.onload = function () {
     questions_jv = [
       'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
       'Bizonyos krízishelyzetekben jobb a barátokra hagyatkozni, mint a saját fejünket követni.',
-      'A köklcsönös tisztelet fontosabb, mint hogy kinek van igaza.',
+      'A kölcsönös tisztelet fontosabb, mint hogy kinek van igaza.',
       'Együtt könnyebb.',
       'Az életem értelmét megtalálhatom a többiekben.',
       'A szerelem lényege, hogy kiegészítjük egymást.',
