@@ -526,7 +526,7 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        questionText.textContent = `Köszönöm, hogy kitöltötted a személyiségtesztet! \r\n \r\n Remélem, hogy a kitöltés által megtanultál magadról valami fontosat. Ha mégsem érzed önazonosnak, amit kiolvasol az állításaimból, nyugodtan töltsd ki mégegyszer a tesztet. `
+        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő és a világ együtt léteznek tovább. \r\n \r\n Ha úgy gondolod, hogy a létezése nem tart jó tükröt a személyiségednek, nyugodtan alkoss egy másikat. `
         answerButtons.innerHTML = ''
         resetButton.style.display = 'block'
       }
