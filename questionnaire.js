@@ -44,7 +44,7 @@ window.onload = function () {
         'Kedvellek téged! Kérlek maradj továbbra is ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
       ]
       questions_3j = [
-        'A felelősség ugyanolyan fontos, mint az őszinteség.'
+        //'A felelősség ugyanolyan fontos, mint az őszinteség.'
       ]
   
       questions_be = [
@@ -62,7 +62,7 @@ window.onload = function () {
       ]
       questions_bk = [
         'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
-        'A felelősség legalább olyan fontos, mint az őszinteség.',
+        //'A felelősség legalább olyan fontos, mint az őszinteség.',
         'Nincs olyan pillanat, mikor a hazugság elfogadható',
         'Elmenekülök a problémáim elől. ',
         'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
@@ -81,7 +81,7 @@ window.onload = function () {
         'Átlagos vagyok.',
         'Nem azért töltögetem ki ezeket a kérdőíveket, mert tényleg változást remélek, csak így próbálom meg elhessegetni magamtól a gondolatot, hogy az életem teljesen átlagos és kötött pályán mozog',
         'Középszerű vagyok.',
-        'Nincs új a nap alatt',
+        'Már minden ötletet elgondolt valaki előttem.',
         'Unalmas vagyok.',
         'Nem viszonyulok túl kreatívan az állításokhoz. Nem tisztelem a rám bízott lelket.',
         'Nem tisztelem a rám bízott lelket.',
@@ -210,7 +210,7 @@ window.onload = function () {
       if (- 6 <= score && score <= 6 && 3 < questionNumber && questionNumber < 7) {
         questionsPool.push(...questions_ke)
       }
-      if (-5 <= score && score <= 5 && 3 < questionNumber && questionNumber < 18) {
+      if (-3 <= score && score <= 3 && 3 < questionNumber && questionNumber < 18) {
         questionsPool.push(...questions_kk)
       }
   
