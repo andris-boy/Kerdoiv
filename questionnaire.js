@@ -68,7 +68,8 @@ window.onload = function () {
         'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
         'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek',
         'Nem én vagyok a legfontosabb a saját életemben.',
-        'Mindig ilyen negatív vagyok'
+        'Mindig ilyen negatív vagyok,.',
+        'Nem viszonyulok túl kreatívan az állításokhoz. Nem tisztelem a rám bízott lelket.'
       ]
       questions_ke = [
         'Hajlamos vagyok úszni az árral.',
@@ -83,7 +84,6 @@ window.onload = function () {
         'Középszerű vagyok.',
         'Már minden ötletet elgondolt valaki előttem.',
         'Unalmas vagyok.',
-        'Nem viszonyulok túl kreatívan az állításokhoz. Nem tisztelem a rám bízott lelket.',
         'Nem tisztelem a rám bízott lelket.',
         'Nem vagyok jobb vagy különb a többieknél.',
         'Teljesen elvtelenül válaszolgatok.',
