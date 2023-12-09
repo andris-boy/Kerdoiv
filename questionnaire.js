@@ -111,7 +111,7 @@ window.onload = function () {
         'Nem akarok a világ ura lenni. ',
         'Tárgyalás révén mindig lehet jó kompromisszumot kötni. ',
         'Minden emberben meg lehet bízni.',
-        'Minden élőlény hasznára válik a világnak.',
+        'Minden élet hasznára válik a világnak.',
         'Minden vélemény ugyanannyira értékes. ',
         'Mindent meg lehet bocsátani. ',
         'Sebezhető vagyok.',
@@ -139,7 +139,7 @@ window.onload = function () {
         'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
         'El tudom engedni magam.',
         'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív',
-        'A szerelem lényege a kölcsönös szabadság.'
+        'A szerelem lényegtelen'
       ]
       questions_jv = [
         'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
@@ -147,7 +147,7 @@ window.onload = function () {
         'A kölcsönös tisztelet fontosabb, mint hogy kinek van igaza.',
         'Együtt könnyebb.',
         'Az életem értelmét megtalálhatom a többiekben.',
-        'A szerelem lényege, hogy kiegészítjük egymást.',
+        'A szerelem lényege a kölcsönös szabadság.',
         'Ha másokat kéne vezetnem, az torzítaná a személyiségemet',
         'Nem tudnám eldönteni, hogy két ember közül melyikük élete értékesebb.',
         'Azzá válok, aminek mások látnak.'
@@ -270,7 +270,7 @@ window.onload = function () {
       if (0 < questionNumber && questionNumber <= 8 ) {
         const scoreA = 1
         const scoreB = 4
-        const scoreC = 8
+        const scoreC = 6
   
         if (score < -scoreC) {
           return 'I -3.png'
@@ -297,10 +297,10 @@ window.onload = function () {
       if (8 < questionNumber && questionNumber <= 15 ) {
         const scoreA = 1
         const scoreB = 4
-        const scoreC = 8
-        const scoreD = 12
-        const scoreE = 18
-        const scoreF = 24
+        const scoreC = 6
+        const scoreD = 8
+        const scoreE = 11
+        const scoreF = 15
 
         if (score < -scoreF) {
             return 'II -3.png'
@@ -357,13 +357,13 @@ window.onload = function () {
       if (15 < questionNumber && questionNumber <= 22 ) {
         const scoreA = 1
         const scoreB = 4
-        const scoreC = 8
-        const scoreD = 12
-        const scoreE = 18
-        const scoreF = 24
-        const scoreG = 30
-        const scoreH = 36
-        const scoreI = 40       
+        const scoreC = 6
+        const scoreD = 8
+        const scoreE = 11
+        const scoreF = 15
+        const scoreG = 19
+        const scoreH = 23
+        const scoreI = 30       
   
         if (score < -scoreI) {
           return 'III -3.png'
