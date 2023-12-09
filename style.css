@@ -162,3 +162,7 @@ p {
 #reset-button:hover {
   background-image: url("reset2.png") ;
 }
+
+#image-container {
+  height: 150px;
+}
