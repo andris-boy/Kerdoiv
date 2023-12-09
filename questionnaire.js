@@ -70,7 +70,7 @@ window.onload = function () {
         'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek',
         'Nem én vagyok a legfontosabb a saját életemben.',
         'Mindig ilyen negatív vagyok,.',
-        'Nem viszonyulok túl kreatívan az állításokhoz. Nem tisztelem a rám bízott lelket.'
+        'Nem tisztelem a rám bízott lelket.'
       ]
       questions_ke = [
         'Hajlamos vagyok úszni az árral.',
@@ -85,7 +85,6 @@ window.onload = function () {
         'Középszerű vagyok.',
         'Már minden ötletet elgondolt valaki előttem.',
         'Unalmas vagyok.',
-        'Nem tisztelem a rám bízott lelket.',
         'Nem vagyok jobb vagy különb a többieknél.',
         'Teljesen elvtelenül válaszolgatok.',
         'Érdektelen vagyok.',
@@ -130,7 +129,7 @@ window.onload = function () {
         'Hagyom, hogy az állítások megvezessenek és nem tudom szabaddá tenni a lelket, amit kaptam.',
         'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
         'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
-        'A kellő információk mentén el tudnám dönteni két ember közül, hogy melyikük élete ér többet.'
+       
       ]
       questions_kv = [
         'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
@@ -138,8 +137,9 @@ window.onload = function () {
         'El tudom engedni az egomat.',
         'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
         'El tudom engedni magam.',
+        'El tudnám dönteni két élőről, hogy melyikük lelke ér többet.',
         'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív',
-        'A szerelem lényegtelen'
+        'A szerelem lényegtelen.'
       ]
       questions_jv = [
         'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
