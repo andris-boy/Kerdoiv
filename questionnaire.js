@@ -44,7 +44,7 @@ window.onload = function () {
         'Kedvellek téged! Kérlek maradj továbbra is ilyen pozitív. Itt egy állítás segítségül: Életigenlő vagyok.'
       ]
       questions_3j = [
-        //'A felelősség ugyanolyan fontos, mint az őszinteség.'
+        'Mindenki megérdemli, hogy megtapasztalja, milyen ha őszintén szeretik.'
       ]
   
       questions_be = [
@@ -92,6 +92,7 @@ window.onload = function () {
         'Monoton vagyok.'
       ]
       questions_je = [
+        'A jóság fontosabb, mint a szépség.',
         'Szeretek segíteni másoknak. ',
         'Szívesen dolgozom csapatban ',
         'Vannak barátaim.',
@@ -113,6 +114,7 @@ window.onload = function () {
         'Minden vélemény ugyanannyira értékes. ',
         'Mindent meg lehet bocsátani. ',
         'Sebezhető vagyok.',
+        'Minden ember fenség',
         'Nem tudom meghatározni magamat külső segítség nélkül. ',
         'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
       ]
