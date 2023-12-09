@@ -64,11 +64,11 @@ window.onload = function () {
       questions_bk = [
         'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
         //'A felelősség legalább olyan fontos, mint az őszinteség.',
-        'Nincs olyan pillanat, mikor a hazugság elfogadható',
+        'Nincs olyan pillanat, mikor a hazugság elfogadható.',
         'Elmenekülök a problémáim elől. ',
         'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
-        'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek',
-        'Nem én vagyok a legfontosabb a saját életemben.',
+        'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek.',
+        'Én vagyok a legfontosabb a saját életemben.',
         'Mindig ilyen negatív vagyok,.',
         'Nem tisztelem a rám bízott lelket.'
       ]
@@ -80,7 +80,7 @@ window.onload = function () {
       questions_kk = [
         'Ha megtagadom a válaszadást, akkor is válaszolok. ',
         'Átlagos vagyok.',
-        'Nem azért töltögetem ki ezeket a kérdőíveket, mert tényleg változást remélek, csak így próbálom meg elhessegetni magamtól a gondolatot, hogy az életem teljesen átlagos és kötött pályán mozog',
+        'Nem azért töltögetem ki ezeket a kérdőíveket, mert tényleg változást remélek, csak így próbálom meg elhessegetni magamtól a gondolatot, hogy az életem teljesen átlagos és kötött pályán mozog.',
         'Középszerű vagyok.',
         'Már minden ötletet elgondolt valaki előttem.',
         'Unalmas vagyok.',
@@ -114,7 +114,7 @@ window.onload = function () {
         'Mindent meg lehet bocsátani. ',
         'Sebezhető vagyok.',
         'Hajlamos vagyok úszni az árral.',
-        'Minden ember fenség',
+        'Minden ember fenség.',
         'Nem tudom meghatározni magamat külső segítség nélkül. ',
         'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
       ]
@@ -125,9 +125,9 @@ window.onload = function () {
         'Hagyom magamat csapdába csalogatni. ',
         'A tiszta kíváncsiság szörnyeteggé tehet.',
         'A tagadást felcserélem az értékválasztással.',
-        'Nem akarok tudni bizonyos dolgokról',
+        'Nem akarok tudni bizonyos dolgokról.',
         'Hagyom, hogy az állítások megvezessenek és nem tudom szabaddá tenni a lelket, amit kaptam.',
-        'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
+        'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával.',
         'A szerelem lényegtelen.'
        
       ]
