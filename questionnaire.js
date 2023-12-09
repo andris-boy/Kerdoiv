@@ -269,8 +269,8 @@ window.onload = function () {
   
       if (0 < questionNumber && questionNumber <= 8 ) {
         const scoreA = 1
-        const scoreB = 6
-        const scoreC = 10
+        const scoreB = 4
+        const scoreC = 8
   
         if (score < -scoreC) {
           return 'I -3.png'
@@ -296,11 +296,11 @@ window.onload = function () {
       }
       if (8 < questionNumber && questionNumber <= 15 ) {
         const scoreA = 1
-        const scoreB = 6
-        const scoreC = 10
-        const scoreD = 14
-        const scoreE = 20
-        const scoreF = 26
+        const scoreB = 4
+        const scoreC = 8
+        const scoreD = 12
+        const scoreE = 18
+        const scoreF = 24
 
         if (score < -scoreF) {
             return 'II -3.png'
@@ -356,11 +356,11 @@ window.onload = function () {
       }
       if (15 < questionNumber && questionNumber <= 22 ) {
         const scoreA = 1
-        const scoreB = 6
-        const scoreC = 10
-        const scoreD = 14
-        const scoreE = 20
-        const scoreF = 26
+        const scoreB = 4
+        const scoreC = 8
+        const scoreD = 12
+        const scoreE = 18
+        const scoreF = 24
         const scoreG = 30
         const scoreH = 36
         const scoreI = 40       
