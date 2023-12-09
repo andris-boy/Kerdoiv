@@ -20,6 +20,7 @@ window.onload = function () {
     let questions_22b = []
     let questions_22k = []
     let questions_22j = []
+    let backupQuestion = 'Erre a kérdésre nem vagyok felkészülve.'
   
     function fillQuestions() {
       questions_1 = [
@@ -501,10 +502,17 @@ window.onload = function () {
     function displayQuestion() {
       const questionText = document.getElementById('question-text')
       if (questionNumber <= 22) {
-        const selectedQuestion = selectQuestion(questionNumber, currentScore)
-  
-        // Remove the selected question from the pool to avoid repetition
-        deleteSelectedQuestion(selectedQuestion)
+        let selectedQuestion = selectQuestion(questionNumber, currentScore)
+
+        // When selected question exists (https://stackoverflow.com/questions/784929/what-is-the-not-not-operator-in-javascript)
+        // delete from the pool
+        // otherwise (does not exist) use backup question
+        if (!!selectedQuestion) {
+          // Remove the selected question from the pool to avoid repetition
+          deleteSelectedQuestion(selectedQuestion)
+        } else {
+          selectedQuestion = backupQuestion
+        }
   
         // Remake question paragraph in the DOM
         questionContainer.innerHTML = ''
