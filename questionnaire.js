@@ -536,7 +536,7 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek. Sikerült szabaddá tenned, vagy tükröt csináltál belőle? Úgy érzed, hogy irányítanak? Ha kíváncsi vagy, nyugodtan próbálj ki egy másik lelket. `
+        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek. Sikerült szabaddá tenned, vagy tükröt csináltál belőle? Úgy érzed, hogy irányítanak? Ha kíváncsi vagy, nyugodtan építs fel egy másik Homunculust. `
         answerButtons.innerHTML = ''
         resetButton.style.display = 'block'
       }
