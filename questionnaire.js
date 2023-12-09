@@ -38,7 +38,7 @@ window.onload = function () {
         'Ha megtagadom a döntést, akkor közelebb kerülhetek saját magam tisztasághoz.'
       ]
       questions_3k = [
-        'A választás illúzió, a valódi dolgok belülről jönnek és egyértelműek.'
+        'A választás illúzió, a valódi dolgok egyértelműek.'
       ]
   
       questions_2j = [
@@ -73,8 +73,7 @@ window.onload = function () {
         'Nem tisztelem a rám bízott lelket.'
       ]
       questions_ke = [
-        'Hajlamos vagyok úszni az árral.',
-        'A szépség kevésbe fontos, mint a jóság',
+        'Ez nem választás.',
         'A türelem fontosabb, mint a szabadság.',
         'Vannak helyzetek, amikben nem érdemes dönteni.'
       ]
@@ -114,6 +113,7 @@ window.onload = function () {
         'Minden vélemény ugyanannyira értékes. ',
         'Mindent meg lehet bocsátani. ',
         'Sebezhető vagyok.',
+        'Hajlamos vagyok úszni az árral.',
         'Minden ember fenség',
         'Nem tudom meghatározni magamat külső segítség nélkül. ',
         'Ha valakit szeretek, mindent hajlandó vagyok megbocsátani neki.'
