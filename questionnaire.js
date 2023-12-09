@@ -128,7 +128,7 @@ window.onload = function () {
         'Nem akarok tudni bizonyos dolgokról',
         'Hagyom, hogy az állítások megvezessenek és nem tudom szabaddá tenni a lelket, amit kaptam.',
         'A szabadságom értéktelen, ha nem alkuszik meg a többiek szabadságával',
-        'A szerelem lényege az, hogy a másikból magamra tudok nézni.',
+        'A szerelem lényegtelen.'
        
       ]
       questions_kv = [
@@ -139,7 +139,7 @@ window.onload = function () {
         'El tudom engedni magam.',
         'El tudnám dönteni két élőről, hogy melyikük lelke ér többet.',
         'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív',
-        'A szerelem lényegtelen.'
+        'A szerelem egyensúly.'
       ]
       questions_jv = [
         'Amikor közösen csinálunk valamit, akkor nem szükséges figyelembe venni a kívülállókat. Sokkal több dolog bomlik ki az összefonódásból, mint a szüntelen figyelemből. ',
