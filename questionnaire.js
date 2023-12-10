@@ -543,7 +543,7 @@ window.onload = function () {
         if (currentScore == 0)
         text = 'Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap magad is szabad leszel!'
         else if (4 < currentScore) {
-        text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
+        text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         }
 
         questionText.textContent = text
