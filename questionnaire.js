@@ -92,8 +92,8 @@ window.onload = function () {
       ]
       questions_je = [
         'A jóság fontosabb, mint a szépség.',
-        'Szeretek segíteni másoknak. ',
-        'Szívesen dolgozom csapatban ',
+        'Szeretek segíteni másoknak.',
+        'Szívesen dolgozom csapatban.',
         'Vannak barátaim.',
         'Megbízom az emberekben.',
         'Szeretem pontosan tudni, hogy mit várnak el tőlem.',
@@ -138,7 +138,7 @@ window.onload = function () {
         'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
         'El tudom engedni magam.',
         'El tudnám dönteni két élőről, hogy melyikük lelke ér többet.',
-        'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív',
+        'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív.',
         'A szerelem egyensúly.'
       ]
       questions_jv = [
