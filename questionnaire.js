@@ -536,7 +536,19 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek. Sikerült szabaddá tenned, vagy tükröt csináltál belőle? Úgy érzed, hogy irányítanak? Ha kíváncsi vagy, nyugodtan építs fel egy másik Homunculust. `
+        let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerenséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
+        if(score < 4){
+        text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
+        } 
+        if (score == 0)
+        text = 'Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap magad is szabad leszel!'
+        else if (4 < score) {
+        text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
+        }
+
+        questionText.textContent = text
+        
+        //questionText.textContent = `Köszönöm, hogy sorsot adtál ennek a léleknek! Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek. Sikerült szabaddá tenned, vagy tükröt csináltál belőle? Úgy érzed, hogy irányítanak? Ha kíváncsi vagy, nyugodtan építs fel egy másik Homunculust. `
         answerButtons.innerHTML = ''
         resetButton.style.display = 'block'
       }
