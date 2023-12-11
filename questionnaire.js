@@ -537,10 +537,10 @@ window.onload = function () {
       } else {
         let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerencséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
         
-        if (currentScore <= -42){
+        if (currentScore == -44){
           text = 'Mechanikus tagadás? A gyakorlat, amit folytatsz démonná tesz, pedig több igazságot rejt, mint azt gondolni merészelnéd, mikor a rád bízott lélekből a sátán néz vissza rád.'
         }
-        else if(-42 < currentScore &&currentScore < -25){
+        else if(-44 < currentScore &&currentScore < -25){
           text = 'Elbuktál. Micsoda páratlan hübrisz! Talán nem is érdemes újra próbálkoznod. Inkább szerezz tapasztalatokat az életben és gyere vissza később. Nincs értelme feláldoznod mégegy lelket, nem fogsz tanulni belőle. Inkább verd a fejedet a falba.'
         }
         else if(- 25 <= currentScore && currentScore < -12){
@@ -564,10 +564,10 @@ window.onload = function () {
         else if (12 < currentScore && currentScore <= 25){
         text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         }
-        else if (25 < currentScore && currentScore < 42){
+        else if (25 < currentScore && currentScore < 44){
           text = 'Elbuktál. A rád bízott lélek kifordult magából. Az áldozatodat bármilyen nemes cél is vezette, ostoba volt és végsősoron felesleges. Micsoda hübrisz! Ha életedben nem avatnak szentté, akkor imádkozz, hogy valaki jó alaposan visszaéljen a bizalmaddal, különben örökre szentfazék maradsz. Ha szeretnél közelebb kerülni az igazsághoz, akkor sajtolj ki magadból egy másik áldozati Homonculust. Talán ez az áldozat már nem lesz teljesen felesleges...'
         }
-        else if (42 <= currentScore){
+        else if (44 == currentScore){
           text = 'Vajon tényleg megéri mechanikusan és kritika nélkül törtetni a jó felé? Afelé, ami jónak tűnik? A szükségszerű bukásod talán megtanít, hogy a végletek hajszolásánál fontosabb a jelenlét.'
         }
 
