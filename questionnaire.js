@@ -544,10 +544,10 @@ window.onload = function () {
           text = 'Elbuktál. Micsoda páratlan hübrisz! Talán nem is érdemes újra próbálkoznod. Inkább szerezz tapasztalatokat az életben és gyere vissza később. Nincs értelme feláldoznod mégegy lelket, nem fogsz tanulni belőle. Inkább verd a fejedet a falba.'
         }
         else if(- 25 <= currentScore && currentScore < -12){
-        text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
+        text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig nem volt hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         } 
         else if(- 12 <= currentScore && currentScore < -4){
-        text = 'Elbuktál és a rád bízott lélek veled bukott. Vajon a rossz irányba tartasz, vagy csak nem voltál elég határozott? Ha valaki, te talán érdemes vagy rá, hogy feláldozz mégegy lelket. Még az is lehet, hogy sikerrel jársz.'
+        text = 'Elbuktál és a rád bízott lélek veled bukott. Vajon a rossz irányba tartasz, vagy csak nem voltál elég határozott? Ha valaki, te talán érdemes vagy rá, hogy feláldozz mégegy lelket. Még az is lehet, hogy sikerrel jársz. Próbáld újra!'
         } 
         else if (currentScore == -1){
         text = 'Elbuktál. Pedig épppen csak egy lépésre voltál az megoldástól. Próbáld újra!'
