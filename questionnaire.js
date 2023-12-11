@@ -535,7 +535,7 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerencséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
+        let text= 'Elbuktál. Egy ponton egészen közel kerültél a megoldáshoz, talán érintetted is, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerencséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
         
         if (currentScore == -44){
           text = 'Mechanikus tagadás? A gyakorlat, amit folytatsz démonná tesz, pedig több igazságot rejt, mint azt gondolni merészelnéd, mikor a rád bízott lélekből a sátán néz vissza rád.'
@@ -547,19 +547,19 @@ window.onload = function () {
         text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         } 
         else if(- 12 <= currentScore && currentScore < -4){
-        text = 'Elbuktál és a rád bízott lélek veled bukott. Vajon a rossz irányba tartasz, vagy csak nem voltál elég határozott?'
+        text = 'Elbuktál és a rád bízott lélek veled bukott. Vajon a rossz irányba tartasz, vagy csak nem voltál elég határozott? Ha valaki, te talán érdemes vagy rá, hogy feláldozz mégegy lelket. Még az is lehet, hogy sikerrel jársz.'
         } 
         else if (currentScore == -1){
-        text = 'Elbuktál. Pedig épppen csak egy lépésre voltál az megoldástól.'
+        text = 'Elbuktál. Pedig épppen csak egy lépésre voltál az megoldástól. Próbáld újra!'
         }
         else if (currentScore == 0){
         text = 'Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap te magad is szabad leszel! Ha nem csak véletlenül sikerült jól elvégezned a rituálét, akkor már azt is érted, hogy hogyan...'
         }
         else if (currentScore == 1){
-        text = 'Elbuktál. Épppen csak egy lépésre a céltól.'
+        text = 'Elbuktál. Épppen csak egy lépésre a céltól. Próbáld újra!'
         }
         else if (4 < currentScore && currentScore <= 12){
-        text = 'Elbuktál és a rád bízott lélek veled bukott. Ha tudod, hogy jó irányba tartasz, miért nem voltál elég határozott?'
+        text = 'Elbuktál és a rád bízott lélek veled bukott. Ha tudod, hogy jó irányba tartasz, miért nem voltál elég határozott? Próbálj meg feláldozni egy másik Homunculust. Lehet, hogy sikerrel jársz.'
         } 
         else if (12 < currentScore && currentScore <= 25){
         text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
