@@ -541,13 +541,25 @@ window.onload = function () {
         if(currentScore < -25){
           text = 'Elbuktál. Micsoda páratlan hübrisz! Talán nem is érdemes újra próbálkoznod. Inkább szerezz tapasztalatokat az életben és gyere vissza később. Nincs értelme feláldoznod mégegy lelket, nem fogsz tanulni belőle. Inkább verd a fejedet a falba.'
         }
-        else if(- 26 <= currentScore && currentScore < -4){
+        else if(- 25 <= currentScore && currentScore < -10){
         text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         } 
+        else if(- 10 <= currentScore && currentScore < -4){
+        text = 'Elbuktál és a rád bízott lélek veled bukott. Vajon a rossz irányba tartasz, vagy csak nem voltál elég határozott?'
+        } 
+        else if (currentScore == -1){
+        text = 'Elbuktál. Pedig épppen csak egy lépésre voltál az megoldástól.'
+        }
         else if (currentScore == 0){
         text = 'Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap te magad is szabad leszel! Ha nem csak véletlenül sikerült jól elvégezned a rituálét, akkor már azt is érted, hogy hogyan...'
         }
-        else if (4 < currentScore && currentScore <= 25){
+        else if (currentScore == 1){
+        text = 'Elbuktál. Épppen csak egy lépésre a céltól.'
+        }
+        else if (4 < currentScore && currentScore <= 10){
+        text = 'Elbuktál és a rád bízott lélek veled bukott. Ha tudod, hogy jó irányba tartasz, miért nem voltál elég határozott?'
+        } 
+        else if (10 < currentScore && currentScore <= 25){
         text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         }
         else if (25 < currentScore){
