@@ -553,8 +553,11 @@ window.onload = function () {
         text = 'Elbuktál. Pedig épppen csak egy lépésre voltál az megoldástól. Próbáld újra!'
         }
         else if (currentScore == 0){
-        text = 'Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap te magad is szabad leszel! Ha nem csak véletlenül sikerült jól elvégezned a rituálét, akkor már azt is érted, hogy hogyan...'
+        text = 'Gratulálok! Megtaláltad az Igazságot. A Végső Igazságot, mely üreges és semmitmondó. Végtelen hiány, végtelen potenciál: maga a tökéletesség. Ebben a csendes ürességben viszhangzanak a bukásaid: örökké és megmásíthatatlanul. Hajolj meg az üresség előtt, majd menj és bukj el megint! Fogadd el, hogy halandó vagy, tökéletlen és bukásra ítéltetett! Ez az élet szentsége.'
         }
+
+        // Gratulálok. Sikerült szabaddá tenned ezt a lelket! Talán egy nap te magad is szabad leszel! Ha nem csak véletlenül sikerült jól elvégezned a rituálét, akkor már azt is érted, hogy hogyan. 
+
         else if (currentScore == 1){
         text = 'Elbuktál. Épppen csak egy lépésre a céltól. Próbáld újra!'
         }
