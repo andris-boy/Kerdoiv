@@ -63,13 +63,12 @@ window.onload = function () {
       ]
       questions_bk = [
         'A kapcsolataimban próbálok mindig a másiknak megfelelni és hozzá igazítani magamat.',
-        //'A felelősség legalább olyan fontos, mint az őszinteség.',
         'Nincs olyan pillanat, mikor a hazugság elfogadható.',
         'Elmenekülök a problémáim elől. ',
         'A múlttal való folytonosság fontosabb, mint jelen lenni a pillanatban.',
         'Bűnt elkövetni akkor is önsorsrontás, ha senki nem tud róla és a materiális következmények nem számottevőek.',
         'Én vagyok a legfontosabb a saját életemben.',
-        'Mindig ilyen negatív vagyok,.',
+        'Mindig ilyen negatív vagyok.',
         'Nem tisztelem a rám bízott lelket.'
       ]
       questions_ke = [
@@ -536,7 +535,7 @@ window.onload = function () {
           answerButtons.appendChild(button)
         }
       } else {
-        let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerenséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
+        let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerencséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
         
         if(currentScore < -25){
           text = 'Elbuktál. Micsoda páratlan hübrisz! Talán nem is érdemes újra próbálkoznod. Inkább szerezz tapasztalatokat az életben és gyere vissza később. Nincs értelme feláldoznod mégegy lelket, nem fogsz tanulni belőle. Inkább verd a fejedet a falba.'
