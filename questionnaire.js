@@ -538,10 +538,10 @@ window.onload = function () {
       } else {
         let text= 'Elbuktál. Nem jártál messze a megoldástól, de a rád bízott lélek így is elveszett. Vajon a jó úton jársz, vagy csak szerenséd volt? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, építs fel egy másik Homonculust!'
         
-        if(currentScore < -20){
+        if(currentScore < -25){
           text = 'Elbuktál. Micsoda páratlan hübrisz! Talán nem is érdemes újra próbálkoznod. Inkább szerezz tapasztalatokat az életben és gyere vissza később. Nincs értelme feláldoznod mégegy lelket, nem fogsz tanulni belőle. Inkább verd a fejedet a falba.'
         }
-        else if(- 20 < currentScore < -4){
+        else if(- 26 <= currentScore < -4){
         text = 'Elbuktál. A rád bízott lelket kiveti magából a világ. Ameddig nem zárod be ezt az ablakot, addig ő, a világ és te együtt léteztek... utána egyedül maradtok a sorsotokkal. Legalább sikerült levonni a tanulságot? Ne aggódj, hibázni emberi dolog, az áldozat pedig sohasem hiábavaló. Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         } 
         else if (currentScore == 0){
@@ -550,7 +550,7 @@ window.onload = function () {
         else if (4 < currentScore <= 25){
         text = 'Elbuktál. A rád bízott lélek feloldódik a környezetében. Nem biztos, hogy ilyen büszke lennél magadra, ha tudnád, hogy kinek, vagy minek válik majd az eszközévé. Magaddal kapcsolatban legalább sikerült levonni a tanulságot? Ha úgy gondolod, hogy legközelebb sikerül megtalálnod a megoldást, nyugodtan építs fel egy másik Homonculust!'
         }
-        else if (20 < currentScore){
+        else if (25 < currentScore){
           text = 'Elbuktál. A rád bízott lélek kifordult magából. Az áldozatodat bármilyen nemes cél is vezette, ostoba volt és végsősoron felesleges. Micsoda hübrisz! Ha életedben nem avatnak szentté, akkor imádkozz, hogy valaki jó alaposan visszaéljen a bizalmaddal, különben örökre szentfazék maradsz. Ha szeretnél közelebb kerülni az igazsághoz, akkor sajtolj ki magadból egy másik áldozati Homonculust. Talán ez az áldozat már nem lesz teljesen felesleges...'
         }
 
