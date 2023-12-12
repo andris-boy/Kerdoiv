@@ -136,7 +136,7 @@ window.onload = function () {
         'Ha kapcsolatba lépek egy másik entitással, akkor jól el tudom különíteni, hogy mi származik belőle és mi származik belőlem.',
         'Nem bánom, hogy nem vagyok különleges.',
         'El tudom engedni az egomat.',
-        'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik az, amire az állítás eredetileg vonatkozik.',
+        'Mikor elolvasod és megérted az állítást, amire reagálnod kell, feloldódik benne az, amire az állítás eredetileg vonatkozik.',
         'El tudom engedni magam.',
         'El tudnám dönteni két élőről, hogy melyikük lelke ér többet.',
         'Nem bánom, hogy a mindenkori jelentőségem tökéletesen relatív.',
@@ -446,7 +446,7 @@ window.onload = function () {
     }
   
     function updateImage() {
-      if (questionNumber > 22) {
+      if (questionNumber >= 22) {
         return
       }
   
