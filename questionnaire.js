@@ -357,7 +357,7 @@ window.onload = function () {
       }
     }
     if (15 < questionNumber && questionNumber <= 23) {
-      const scoreA = 1
+      const scoreA = 2
       const scoreB = 4
       const scoreC = 6
       const scoreD = 8
