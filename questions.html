@@ -1,34 +1,96 @@
 <!DOCTYPE html>
 <html lang="hun">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lélekagregátor</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="questionnaire.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Alternatív cím: Di&shy;Fool Sze&shy;mé&shy;lyi&shy;ség&shy;teszt -->
-    <h1>Lé&shy;lek&shy;agg&shy;re&shy;gá&shy;tor</h1>
-    <p> A lélekaggregátor 22 lépésben életerőt sajtol ki belőled egy Homunculus (mesterséges lélek) előállításához. A 22 lépést vagy 22 kísértést felfoghatod afféle önismereti gyakorlatként is. Fejezd ki, mennyire érzed magad azonosnak az állításokkal és fejlessz ki egy lelket, aki majd elárul rólad valamit. Vigyázz, nehogy manipuláció áldozata legyél!
-    </p> 
- 
-    <div id="image-container">
-      <img src="piktogramok/I 0.png" id="image" alt="question-image" class="piktogram-image" />
-    </div>
-    <div id="question-container">
-      <p class="fade-in-text" id="question-text"></p>
-    </div>
-      <div id="answer-buttons">
-        <!-- Answer buttons will be displayed here -->
-      </div>
-    <div id="control-buttons">
-      <button type="button" id="reset-button" alt="reset">
-      
-      </button>
-    </div>
-  </body>
+
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB5H9FWPV9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XB5H9FWPV9');
+  </script>
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lélekagregátor</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="questionnaire.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Alternatív cím: Di&shy;Fool Sze&shy;mé&shy;lyi&shy;ség&shy;teszt -->
+  <h1>Lé&shy;lek&shy;agg&shy;re&shy;gá&shy;tor</h1>
+  <p> A lélekaggregátor 22 lépésben életerőt sajtol ki belőled egy Homunculus (mesterséges lélek) előállításához. A 22
+    lépést vagy 22 kísértést felfoghatod afféle önismereti gyakorlatként is. Fejezd ki, mennyire érzed magad azonosnak
+    az állításokkal és fejlessz ki egy lelket, aki majd elárul rólad valamit. Vigyázz, nehogy manipuláció áldozata
+    legyél!
+  </p>
+
+  <div id="image-container">
+    <img src="piktogramok/I 0.png" id="image" alt="question-image" class="piktogram-image" />
+  </div>
+  <div id="question-container">
+    <p class="fade-in-text" id="question-text"></p>
+  </div>
+  <div id="answer-buttons">
+    <!-- Answer buttons will be displayed here -->
+  </div>
+  <div id="control-buttons">
+    <button type="button" id="reset-button" alt="reset">
+
+    </button>
+  </div>
+
+  <div id="bottom-link">
+    <a href="https://linktr.ee/szemfeny">...találj meg!</a>
+  </div>
+
+  <script>
+    // Check if the content overflows the viewport
+    function checkOverflow() {
+      var body = document.body;
+      var html = document.documentElement;
+
+      var documentHeight = Math.max(
+        body.scrollHeight,
+        body.offsetHeight,
+        html.clientHeight,
+        html.scrollHeight,
+        html.offsetHeight
+      );
+
+      var windowHeight = window.innerHeight;
+
+      return documentHeight > windowHeight;
+    }
+
+    // Adjust the position of the link based on overflow
+    function adjustPosition() {
+      var bottomLink = document.getElementById('bottom-link');
+      if (checkOverflow()) {
+        // Content overflows, display link below content
+        bottomLink.style.position = 'relative';
+        bottomLink.style.width = 'auto';
+        bottomLink.style.marginTop = '20px'; // Adjust the margin as needed
+      } else {
+        // Content doesn't overflow, display link at the bottom
+        bottomLink.style.position = 'fixed';
+        bottomLink.style.width = '100%';
+        bottomLink.style.marginTop = '0';
+      }
+    }
+
+    // Adjust the position on page load and window resize
+    window.addEventListener('load', adjustPosition);
+    window.addEventListener('resize', adjustPosition);
+  </script>
+</body>
+
 </html>

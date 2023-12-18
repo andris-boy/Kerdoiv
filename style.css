@@ -215,3 +215,26 @@ p {
 }
 
 
+
+#bottom-link {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8; /* Optional: Add background color for better visibility */
+  text-align: center;
+  padding: 10px; /* Optional: Add padding for better styling */
+}
+
+#bottom-link a {
+  text-decoration: none;
+  color: #333; /* Optional: Set link color */
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media screen and (max-width: 600px) {
+  #bottom-link {
+    position: relative;
+    width: auto;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+}
