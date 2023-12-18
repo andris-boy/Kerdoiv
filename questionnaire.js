@@ -22,6 +22,17 @@ window.onload = function () {
   let questions_22j = []
   let backupQuestion = 'Erre a kérdésre nem vagyok felkészülve.'
 
+  gtag('config', 'G-XB5H9FWPV9');
+
+  // Send an event for each user answer
+  function sendAnswerEvent(questionId, currentScore) {
+    gtag('event', 'answer_submitted', {
+      'event_category': 'User Answers',
+      'event_label': 'Question ' + questionId,
+      'value': currentScore
+    });
+  }
+
   function fillQuestions() {
     questions_1 = [
       'Irányítható vagyok.'
@@ -593,6 +604,7 @@ window.onload = function () {
     questionNumber++
     displayQuestion()
     updateImage()
+    sendAnswerEvent(questionNumber, currentScore)
   }
 
   resetButton.addEventListener('click', () => {
