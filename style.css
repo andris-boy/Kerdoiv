@@ -1,21 +1,21 @@
-
 /* body{
     white-space: pre;
 } */
-body{
-  word-wrap:break-word;
-  padding:0px 5%
+body {
+  word-wrap: break-word;
+  padding: 0px 5%
 }
 
 h1 {
-    font-family: 'Source Code Pro', monospace;
-    text-align: center; /* Center align the text */
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  /* Center align the text */
 }
 
 p {
-    text-align: center;
-    max-width: 100%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+  text-align: center;
+  max-width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .manual-image {
@@ -34,180 +34,229 @@ p {
 .fade-in-text {
   animation: fadeIn 6s;
 }
+
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-in-image {
   animation: fadeInImg 6s;
 }
+
 @keyframes fadeInImg {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 #answer-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #question-text {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #title {
-    justify-content: center;
+  justify-content: center;
 }
 
 #control-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1cm;
 }
 
 .button {
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff; /* White center */
-    border: 5px solid #4CAF50; /* Green outline */
-    border-radius: 50%; /* Makes it a circle */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000; /* Text color */
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 5px;
-    transition: background-color .5s; /* Add a transition for smooth color change */
-  }
-  
-  #next-button {
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff; /* White center */
-    border: 5px solid #4CAF50; /* Green outline */
-    border-radius: 50%; /* Makes it a circle */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000; /* Text color */
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 5px;
-    transition: background-color .5s; /* Add a transition for smooth color change */
-  }
-
-  #prev-button {    
   width: 50px;
   height: 50px;
-  background-color: #ffffff; /* White center */
-  border: 5px solid #ff0000; /* Red outline */
-  border-radius: 50%; /* Makes it a circle */
+  background-color: #ffffff;
+  /* White center */
+  border: 5px solid #4CAF50;
+  /* Green outline */
+  border-radius: 50%;
+  /* Makes it a circle */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000; /* Text color */
+  color: #000;
+  /* Text color */
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   margin: 5px;
-  transition: background-color .5s; /* Add a transition for smooth color change */
-  }
+  transition: background-color .5s;
+  /* Add a transition for smooth color change */
+}
 
-  #answer-button--2 {
-    border-color: #ff0000; /* Red outline */
-    background-color: #ffffff; /* White center */
-    color: #000; /* Text color */
-  }
-  
-  #answer-button--1 {
-    width: 40px;
-    height: 40px;
-    border-color: #ff0000; /* Red outline */
-    background-color: #ffffff; /* White center */
-    color: #000; /* Text color */
-  }
-  
-  #answer-button-0 {
-    width: 30px;
-    height: 30px;
-    border-color: #808080; /* Grey outline */
-    background-color: #ffffff; /* White center */
-    color: #000; /* Text color */
-  }
-  
-  #answer-button-1 {
-    width: 40px;
-    height: 40px;
-    border-color: #4CAF50; /* Green outline */
-    background-color: #ffffff; /* White center */
-    color: #000; /* Text color */
-  }
-  
-  #answer-button-2 {
-    border-color: #4CAF50; /* Green outline */
-    background-color: #ffffff; /* White center */
-    color: #000; /* Text color */
-  }
-  
-  /* Add hover styles for the specified buttons */
-  #answer-button--2:hover {
-    background-color: #ff0000; /* Red outline color on hover */
-  }
-  
-  #answer-button--1:hover {
-    background-color: #ff0000; /* Red outline color on hover */
-  }
-  
-  #answer-button-0:hover {
-    background-color: #808080; /* Green outline color on hover */
-  }
-  
-  #answer-button-1:hover {
-    background-color: #4CAF50; /* Green outline color on hover */
-  }
-  
-  #answer-button-2:hover {
-    background-color: #4CAF50; /* Green outline color on hover */
-  }
+#next-button {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  /* White center */
+  border: 5px solid #4CAF50;
+  /* Green outline */
+  border-radius: 50%;
+  /* Makes it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  /* Text color */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color .5s;
+  /* Add a transition for smooth color change */
+}
 
-  #next-button:hover {
-    background-color: #4CAF50; /* Green outline color on hover */
-  }
+#prev-button {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  /* White center */
+  border: 5px solid #ff0000;
+  /* Red outline */
+  border-radius: 50%;
+  /* Makes it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  /* Text color */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color .5s;
+  /* Add a transition for smooth color change */
+}
 
-  #prev-button:hover {
-    background-color: #ff0000; /* Red outline color on hover */
-  }
+#answer-button--2 {
+  border-color: #ff0000;
+  /* Red outline */
+  background-color: #ffffff;
+  /* White center */
+  color: #000;
+  /* Text color */
+}
+
+#answer-button--1 {
+  width: 40px;
+  height: 40px;
+  border-color: #ff0000;
+  /* Red outline */
+  background-color: #ffffff;
+  /* White center */
+  color: #000;
+  /* Text color */
+}
+
+#answer-button-0 {
+  width: 30px;
+  height: 30px;
+  border-color: #808080;
+  /* Grey outline */
+  background-color: #ffffff;
+  /* White center */
+  color: #000;
+  /* Text color */
+}
+
+#answer-button-1 {
+  width: 40px;
+  height: 40px;
+  border-color: #4CAF50;
+  /* Green outline */
+  background-color: #ffffff;
+  /* White center */
+  color: #000;
+  /* Text color */
+}
+
+#answer-button-2 {
+  border-color: #4CAF50;
+  /* Green outline */
+  background-color: #ffffff;
+  /* White center */
+  color: #000;
+  /* Text color */
+}
+
+/* Add hover styles for the specified buttons */
+#answer-button--2:hover {
+  background-color: #ff0000;
+  /* Red outline color on hover */
+}
+
+#answer-button--1:hover {
+  background-color: #ff0000;
+  /* Red outline color on hover */
+}
+
+#answer-button-0:hover {
+  background-color: #808080;
+  /* Green outline color on hover */
+}
+
+#answer-button-1:hover {
+  background-color: #4CAF50;
+  /* Green outline color on hover */
+}
+
+#answer-button-2:hover {
+  background-color: #4CAF50;
+  /* Green outline color on hover */
+}
+
+#next-button:hover {
+  background-color: #4CAF50;
+  /* Green outline color on hover */
+}
+
+#prev-button:hover {
+  background-color: #ff0000;
+  /* Red outline color on hover */
+}
 
 
-  #reset-button {
-    border: none;
-    background: none;
-    width: 80px;
-    max-width: 80%;
-    height: 80px;
-    max-height: 80%;
-    padding: 0;
-    background-image: url("reset1.png") ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+#reset-button {
+  border: none;
+  background: none;
+  width: 80px;
+  max-width: 80%;
+  height: 80px;
+  max-height: 80%;
+  padding: 0;
+  background-image: url("reset1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 #reset-button:hover {
-  background-image: url("reset2.png") ;
+  background-image: url("reset2.png");
 }
 
 #image-container {
@@ -220,21 +269,24 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f8f8f8; /* Optional: Add background color for better visibility */
+  background-color: #f8f8f8;
+  /* Optional: Add background color for better visibility */
   text-align: center;
-  padding: 10px; /* Optional: Add padding for better styling */
+  padding: 10px;
+  /* Optional: Add padding for better styling */
 }
 
 #bottom-link a {
   text-decoration: none;
-  color: #333; /* Optional: Set link color */
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  /*color: #333; /* Optional: Set link color */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 @media screen and (max-width: 600px) {
   #bottom-link {
     position: relative;
     width: auto;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px;
+    /* Adjust the margin as needed */
   }
 }
