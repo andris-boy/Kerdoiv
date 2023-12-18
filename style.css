@@ -269,7 +269,7 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f8f8f8;
+  /* background-color: #ffffff;
   /* Optional: Add background color for better visibility */
   text-align: center;
   padding: 10px;
@@ -278,7 +278,8 @@ p {
 
 #bottom-link a {
   text-decoration: none;
-  /*color: #333; /* Optional: Set link color */
+  color: #333;
+  /* Optional: Set link color */
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
